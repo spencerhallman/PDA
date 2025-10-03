@@ -1,0 +1,54 @@
+       01  PDA002I.
+           02  FILLER PIC X(12).
+           02  PDADATEL    COMP  PIC  S9(4).
+           02  PDADATEF    PICTURE X.
+           02  FILLER REDEFINES PDADATEF.
+             03 PDADATEA    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  PDADATEI  PIC X(8).
+           02  PDATERML    COMP  PIC  S9(4).
+           02  PDATERMF    PICTURE X.
+           02  FILLER REDEFINES PDATERMF.
+             03 PDATERMA    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  PDATERMI  PIC X(8).
+           02  PDATIMEL    COMP  PIC  S9(4).
+           02  PDATIMEF    PICTURE X.
+           02  FILLER REDEFINES PDATIMEF.
+             03 PDATIMEA    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  PDATIMEI  PIC X(8).
+           02  MENUSELL    COMP  PIC  S9(4).
+           02  MENUSELF    PICTURE X.
+           02  FILLER REDEFINES MENUSELF.
+             03 MENUSELA    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  MENUSELI  PIC X(1).
+           02  PDAMSGL    COMP  PIC  S9(4).
+           02  PDAMSGF    PICTURE X.
+           02  FILLER REDEFINES PDAMSGF.
+             03 PDAMSGA    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  PDAMSGI  PIC X(79).
+       01  PDA002O REDEFINES PDA002I.
+           02  FILLER PIC X(12).
+           02  FILLER PICTURE X(3).
+           02  PDADATEC    PICTURE X.
+           02  PDADATEH    PICTURE X.
+           02  PDADATEO  PIC X(8).
+           02  FILLER PICTURE X(3).
+           02  PDATERMC    PICTURE X.
+           02  PDATERMH    PICTURE X.
+           02  PDATERMO  PIC X(8).
+           02  FILLER PICTURE X(3).
+           02  PDATIMEC    PICTURE X.
+           02  PDATIMEH    PICTURE X.
+           02  PDATIMEO  PIC X(8).
+           02  FILLER PICTURE X(3).
+           02  MENUSELC    PICTURE X.
+           02  MENUSELH    PICTURE X.
+           02  MENUSELO  PIC X(1).
+           02  FILLER PICTURE X(3).
+           02  PDAMSGC    PICTURE X.
+           02  PDAMSGH    PICTURE X.
+           02  PDAMSGO  PIC X(79).

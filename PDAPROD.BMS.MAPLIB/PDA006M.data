@@ -1,0 +1,424 @@
+       01  PDA006I.
+           02  FILLER PIC X(12).
+           02  PDADATEL    COMP  PIC  S9(4).
+           02  PDADATEF    PICTURE X.
+           02  FILLER REDEFINES PDADATEF.
+             03 PDADATEA    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  PDADATEI  PIC X(8).
+           02  PDATERML    COMP  PIC  S9(4).
+           02  PDATERMF    PICTURE X.
+           02  FILLER REDEFINES PDATERMF.
+             03 PDATERMA    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  PDATERMI  PIC X(8).
+           02  PDATIMEL    COMP  PIC  S9(4).
+           02  PDATIMEF    PICTURE X.
+           02  FILLER REDEFINES PDATIMEF.
+             03 PDATIMEA    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  PDATIMEI  PIC X(8).
+           02  PDACATL    COMP  PIC  S9(4).
+           02  PDACATF    PICTURE X.
+           02  FILLER REDEFINES PDACATF.
+             03 PDACATA    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  PDACATI  PIC X(32).
+           02  PDASCATL    COMP  PIC  S9(4).
+           02  PDASCATF    PICTURE X.
+           02  FILLER REDEFINES PDASCATF.
+             03 PDASCATA    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  PDASCATI  PIC X(32).
+           02  SEL1L    COMP  PIC  S9(4).
+           02  SEL1F    PICTURE X.
+           02  FILLER REDEFINES SEL1F.
+             03 SEL1A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  SEL1I  PIC X(1).
+           02  ITEM1L    COMP  PIC  S9(4).
+           02  ITEM1F    PICTURE X.
+           02  FILLER REDEFINES ITEM1F.
+             03 ITEM1A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  ITEM1I  PIC X(32).
+           02  NAME1L    COMP  PIC  S9(4).
+           02  NAME1F    PICTURE X.
+           02  FILLER REDEFINES NAME1F.
+             03 NAME1A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  NAME1I  PIC X(39).
+           02  SEL2L    COMP  PIC  S9(4).
+           02  SEL2F    PICTURE X.
+           02  FILLER REDEFINES SEL2F.
+             03 SEL2A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  SEL2I  PIC X(1).
+           02  ITEM2L    COMP  PIC  S9(4).
+           02  ITEM2F    PICTURE X.
+           02  FILLER REDEFINES ITEM2F.
+             03 ITEM2A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  ITEM2I  PIC X(32).
+           02  NAME2L    COMP  PIC  S9(4).
+           02  NAME2F    PICTURE X.
+           02  FILLER REDEFINES NAME2F.
+             03 NAME2A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  NAME2I  PIC X(39).
+           02  SEL3L    COMP  PIC  S9(4).
+           02  SEL3F    PICTURE X.
+           02  FILLER REDEFINES SEL3F.
+             03 SEL3A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  SEL3I  PIC X(1).
+           02  ITEM3L    COMP  PIC  S9(4).
+           02  ITEM3F    PICTURE X.
+           02  FILLER REDEFINES ITEM3F.
+             03 ITEM3A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  ITEM3I  PIC X(32).
+           02  NAME3L    COMP  PIC  S9(4).
+           02  NAME3F    PICTURE X.
+           02  FILLER REDEFINES NAME3F.
+             03 NAME3A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  NAME3I  PIC X(39).
+           02  SEL4L    COMP  PIC  S9(4).
+           02  SEL4F    PICTURE X.
+           02  FILLER REDEFINES SEL4F.
+             03 SEL4A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  SEL4I  PIC X(1).
+           02  ITEM4L    COMP  PIC  S9(4).
+           02  ITEM4F    PICTURE X.
+           02  FILLER REDEFINES ITEM4F.
+             03 ITEM4A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  ITEM4I  PIC X(32).
+           02  NAME4L    COMP  PIC  S9(4).
+           02  NAME4F    PICTURE X.
+           02  FILLER REDEFINES NAME4F.
+             03 NAME4A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  NAME4I  PIC X(39).
+           02  SEL5L    COMP  PIC  S9(4).
+           02  SEL5F    PICTURE X.
+           02  FILLER REDEFINES SEL5F.
+             03 SEL5A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  SEL5I  PIC X(1).
+           02  ITEM5L    COMP  PIC  S9(4).
+           02  ITEM5F    PICTURE X.
+           02  FILLER REDEFINES ITEM5F.
+             03 ITEM5A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  ITEM5I  PIC X(32).
+           02  NAME5L    COMP  PIC  S9(4).
+           02  NAME5F    PICTURE X.
+           02  FILLER REDEFINES NAME5F.
+             03 NAME5A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  NAME5I  PIC X(39).
+           02  SEL6L    COMP  PIC  S9(4).
+           02  SEL6F    PICTURE X.
+           02  FILLER REDEFINES SEL6F.
+             03 SEL6A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  SEL6I  PIC X(1).
+           02  ITEM6L    COMP  PIC  S9(4).
+           02  ITEM6F    PICTURE X.
+           02  FILLER REDEFINES ITEM6F.
+             03 ITEM6A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  ITEM6I  PIC X(32).
+           02  NAME6L    COMP  PIC  S9(4).
+           02  NAME6F    PICTURE X.
+           02  FILLER REDEFINES NAME6F.
+             03 NAME6A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  NAME6I  PIC X(39).
+           02  SEL7L    COMP  PIC  S9(4).
+           02  SEL7F    PICTURE X.
+           02  FILLER REDEFINES SEL7F.
+             03 SEL7A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  SEL7I  PIC X(1).
+           02  ITEM7L    COMP  PIC  S9(4).
+           02  ITEM7F    PICTURE X.
+           02  FILLER REDEFINES ITEM7F.
+             03 ITEM7A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  ITEM7I  PIC X(32).
+           02  NAME7L    COMP  PIC  S9(4).
+           02  NAME7F    PICTURE X.
+           02  FILLER REDEFINES NAME7F.
+             03 NAME7A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  NAME7I  PIC X(39).
+           02  SEL8L    COMP  PIC  S9(4).
+           02  SEL8F    PICTURE X.
+           02  FILLER REDEFINES SEL8F.
+             03 SEL8A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  SEL8I  PIC X(1).
+           02  ITEM8L    COMP  PIC  S9(4).
+           02  ITEM8F    PICTURE X.
+           02  FILLER REDEFINES ITEM8F.
+             03 ITEM8A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  ITEM8I  PIC X(32).
+           02  NAME8L    COMP  PIC  S9(4).
+           02  NAME8F    PICTURE X.
+           02  FILLER REDEFINES NAME8F.
+             03 NAME8A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  NAME8I  PIC X(39).
+           02  SEL9L    COMP  PIC  S9(4).
+           02  SEL9F    PICTURE X.
+           02  FILLER REDEFINES SEL9F.
+             03 SEL9A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  SEL9I  PIC X(1).
+           02  ITEM9L    COMP  PIC  S9(4).
+           02  ITEM9F    PICTURE X.
+           02  FILLER REDEFINES ITEM9F.
+             03 ITEM9A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  ITEM9I  PIC X(32).
+           02  NAME9L    COMP  PIC  S9(4).
+           02  NAME9F    PICTURE X.
+           02  FILLER REDEFINES NAME9F.
+             03 NAME9A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  NAME9I  PIC X(39).
+           02  SEL10L    COMP  PIC  S9(4).
+           02  SEL10F    PICTURE X.
+           02  FILLER REDEFINES SEL10F.
+             03 SEL10A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  SEL10I  PIC X(1).
+           02  ITEM10L    COMP  PIC  S9(4).
+           02  ITEM10F    PICTURE X.
+           02  FILLER REDEFINES ITEM10F.
+             03 ITEM10A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  ITEM10I  PIC X(32).
+           02  NAME10L    COMP  PIC  S9(4).
+           02  NAME10F    PICTURE X.
+           02  FILLER REDEFINES NAME10F.
+             03 NAME10A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  NAME10I  PIC X(39).
+           02  SEL11L    COMP  PIC  S9(4).
+           02  SEL11F    PICTURE X.
+           02  FILLER REDEFINES SEL11F.
+             03 SEL11A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  SEL11I  PIC X(1).
+           02  ITEM11L    COMP  PIC  S9(4).
+           02  ITEM11F    PICTURE X.
+           02  FILLER REDEFINES ITEM11F.
+             03 ITEM11A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  ITEM11I  PIC X(32).
+           02  NAME11L    COMP  PIC  S9(4).
+           02  NAME11F    PICTURE X.
+           02  FILLER REDEFINES NAME11F.
+             03 NAME11A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  NAME11I  PIC X(39).
+           02  SEL12L    COMP  PIC  S9(4).
+           02  SEL12F    PICTURE X.
+           02  FILLER REDEFINES SEL12F.
+             03 SEL12A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  SEL12I  PIC X(1).
+           02  ITEM12L    COMP  PIC  S9(4).
+           02  ITEM12F    PICTURE X.
+           02  FILLER REDEFINES ITEM12F.
+             03 ITEM12A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  ITEM12I  PIC X(32).
+           02  NAME12L    COMP  PIC  S9(4).
+           02  NAME12F    PICTURE X.
+           02  FILLER REDEFINES NAME12F.
+             03 NAME12A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  NAME12I  PIC X(39).
+           02  PDAMSGL    COMP  PIC  S9(4).
+           02  PDAMSGF    PICTURE X.
+           02  FILLER REDEFINES PDAMSGF.
+             03 PDAMSGA    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  PDAMSGI  PIC X(79).
+       01  PDA006O REDEFINES PDA006I.
+           02  FILLER PIC X(12).
+           02  FILLER PICTURE X(3).
+           02  PDADATEC    PICTURE X.
+           02  PDADATEH    PICTURE X.
+           02  PDADATEO  PIC X(8).
+           02  FILLER PICTURE X(3).
+           02  PDATERMC    PICTURE X.
+           02  PDATERMH    PICTURE X.
+           02  PDATERMO  PIC X(8).
+           02  FILLER PICTURE X(3).
+           02  PDATIMEC    PICTURE X.
+           02  PDATIMEH    PICTURE X.
+           02  PDATIMEO  PIC X(8).
+           02  FILLER PICTURE X(3).
+           02  PDACATC    PICTURE X.
+           02  PDACATH    PICTURE X.
+           02  PDACATO  PIC X(32).
+           02  FILLER PICTURE X(3).
+           02  PDASCATC    PICTURE X.
+           02  PDASCATH    PICTURE X.
+           02  PDASCATO  PIC X(32).
+           02  FILLER PICTURE X(3).
+           02  SEL1C    PICTURE X.
+           02  SEL1H    PICTURE X.
+           02  SEL1O  PIC X(1).
+           02  FILLER PICTURE X(3).
+           02  ITEM1C    PICTURE X.
+           02  ITEM1H    PICTURE X.
+           02  ITEM1O  PIC X(32).
+           02  FILLER PICTURE X(3).
+           02  NAME1C    PICTURE X.
+           02  NAME1H    PICTURE X.
+           02  NAME1O  PIC X(39).
+           02  FILLER PICTURE X(3).
+           02  SEL2C    PICTURE X.
+           02  SEL2H    PICTURE X.
+           02  SEL2O  PIC X(1).
+           02  FILLER PICTURE X(3).
+           02  ITEM2C    PICTURE X.
+           02  ITEM2H    PICTURE X.
+           02  ITEM2O  PIC X(32).
+           02  FILLER PICTURE X(3).
+           02  NAME2C    PICTURE X.
+           02  NAME2H    PICTURE X.
+           02  NAME2O  PIC X(39).
+           02  FILLER PICTURE X(3).
+           02  SEL3C    PICTURE X.
+           02  SEL3H    PICTURE X.
+           02  SEL3O  PIC X(1).
+           02  FILLER PICTURE X(3).
+           02  ITEM3C    PICTURE X.
+           02  ITEM3H    PICTURE X.
+           02  ITEM3O  PIC X(32).
+           02  FILLER PICTURE X(3).
+           02  NAME3C    PICTURE X.
+           02  NAME3H    PICTURE X.
+           02  NAME3O  PIC X(39).
+           02  FILLER PICTURE X(3).
+           02  SEL4C    PICTURE X.
+           02  SEL4H    PICTURE X.
+           02  SEL4O  PIC X(1).
+           02  FILLER PICTURE X(3).
+           02  ITEM4C    PICTURE X.
+           02  ITEM4H    PICTURE X.
+           02  ITEM4O  PIC X(32).
+           02  FILLER PICTURE X(3).
+           02  NAME4C    PICTURE X.
+           02  NAME4H    PICTURE X.
+           02  NAME4O  PIC X(39).
+           02  FILLER PICTURE X(3).
+           02  SEL5C    PICTURE X.
+           02  SEL5H    PICTURE X.
+           02  SEL5O  PIC X(1).
+           02  FILLER PICTURE X(3).
+           02  ITEM5C    PICTURE X.
+           02  ITEM5H    PICTURE X.
+           02  ITEM5O  PIC X(32).
+           02  FILLER PICTURE X(3).
+           02  NAME5C    PICTURE X.
+           02  NAME5H    PICTURE X.
+           02  NAME5O  PIC X(39).
+           02  FILLER PICTURE X(3).
+           02  SEL6C    PICTURE X.
+           02  SEL6H    PICTURE X.
+           02  SEL6O  PIC X(1).
+           02  FILLER PICTURE X(3).
+           02  ITEM6C    PICTURE X.
+           02  ITEM6H    PICTURE X.
+           02  ITEM6O  PIC X(32).
+           02  FILLER PICTURE X(3).
+           02  NAME6C    PICTURE X.
+           02  NAME6H    PICTURE X.
+           02  NAME6O  PIC X(39).
+           02  FILLER PICTURE X(3).
+           02  SEL7C    PICTURE X.
+           02  SEL7H    PICTURE X.
+           02  SEL7O  PIC X(1).
+           02  FILLER PICTURE X(3).
+           02  ITEM7C    PICTURE X.
+           02  ITEM7H    PICTURE X.
+           02  ITEM7O  PIC X(32).
+           02  FILLER PICTURE X(3).
+           02  NAME7C    PICTURE X.
+           02  NAME7H    PICTURE X.
+           02  NAME7O  PIC X(39).
+           02  FILLER PICTURE X(3).
+           02  SEL8C    PICTURE X.
+           02  SEL8H    PICTURE X.
+           02  SEL8O  PIC X(1).
+           02  FILLER PICTURE X(3).
+           02  ITEM8C    PICTURE X.
+           02  ITEM8H    PICTURE X.
+           02  ITEM8O  PIC X(32).
+           02  FILLER PICTURE X(3).
+           02  NAME8C    PICTURE X.
+           02  NAME8H    PICTURE X.
+           02  NAME8O  PIC X(39).
+           02  FILLER PICTURE X(3).
+           02  SEL9C    PICTURE X.
+           02  SEL9H    PICTURE X.
+           02  SEL9O  PIC X(1).
+           02  FILLER PICTURE X(3).
+           02  ITEM9C    PICTURE X.
+           02  ITEM9H    PICTURE X.
+           02  ITEM9O  PIC X(32).
+           02  FILLER PICTURE X(3).
+           02  NAME9C    PICTURE X.
+           02  NAME9H    PICTURE X.
+           02  NAME9O  PIC X(39).
+           02  FILLER PICTURE X(3).
+           02  SEL10C    PICTURE X.
+           02  SEL10H    PICTURE X.
+           02  SEL10O  PIC X(1).
+           02  FILLER PICTURE X(3).
+           02  ITEM10C    PICTURE X.
+           02  ITEM10H    PICTURE X.
+           02  ITEM10O  PIC X(32).
+           02  FILLER PICTURE X(3).
+           02  NAME10C    PICTURE X.
+           02  NAME10H    PICTURE X.
+           02  NAME10O  PIC X(39).
+           02  FILLER PICTURE X(3).
+           02  SEL11C    PICTURE X.
+           02  SEL11H    PICTURE X.
+           02  SEL11O  PIC X(1).
+           02  FILLER PICTURE X(3).
+           02  ITEM11C    PICTURE X.
+           02  ITEM11H    PICTURE X.
+           02  ITEM11O  PIC X(32).
+           02  FILLER PICTURE X(3).
+           02  NAME11C    PICTURE X.
+           02  NAME11H    PICTURE X.
+           02  NAME11O  PIC X(39).
+           02  FILLER PICTURE X(3).
+           02  SEL12C    PICTURE X.
+           02  SEL12H    PICTURE X.
+           02  SEL12O  PIC X(1).
+           02  FILLER PICTURE X(3).
+           02  ITEM12C    PICTURE X.
+           02  ITEM12H    PICTURE X.
+           02  ITEM12O  PIC X(32).
+           02  FILLER PICTURE X(3).
+           02  NAME12C    PICTURE X.
+           02  NAME12H    PICTURE X.
+           02  NAME12O  PIC X(39).
+           02  FILLER PICTURE X(3).
+           02  PDAMSGC    PICTURE X.
+           02  PDAMSGH    PICTURE X.
+           02  PDAMSGO  PIC X(79).

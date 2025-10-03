@@ -1,0 +1,494 @@
+       01  PDA005I.
+           02  FILLER PIC X(12).
+           02  PDADATEL    COMP  PIC  S9(4).
+           02  PDADATEF    PICTURE X.
+           02  FILLER REDEFINES PDADATEF.
+             03 PDADATEA    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  PDADATEI  PIC X(8).
+           02  PDATERML    COMP  PIC  S9(4).
+           02  PDATERMF    PICTURE X.
+           02  FILLER REDEFINES PDATERMF.
+             03 PDATERMA    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  PDATERMI  PIC X(8).
+           02  PDATIMEL    COMP  PIC  S9(4).
+           02  PDATIMEF    PICTURE X.
+           02  FILLER REDEFINES PDATIMEF.
+             03 PDATIMEA    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  PDATIMEI  PIC X(8).
+           02  SEL1L    COMP  PIC  S9(4).
+           02  SEL1F    PICTURE X.
+           02  FILLER REDEFINES SEL1F.
+             03 SEL1A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  SEL1I  PIC X(1).
+           02  CAT1L    COMP  PIC  S9(4).
+           02  CAT1F    PICTURE X.
+           02  FILLER REDEFINES CAT1F.
+             03 CAT1A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  CAT1I  PIC X(32).
+           02  SUBCAT1L    COMP  PIC  S9(4).
+           02  SUBCAT1F    PICTURE X.
+           02  FILLER REDEFINES SUBCAT1F.
+             03 SUBCAT1A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  SUBCAT1I  PIC X(32).
+           02  SEL2L    COMP  PIC  S9(4).
+           02  SEL2F    PICTURE X.
+           02  FILLER REDEFINES SEL2F.
+             03 SEL2A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  SEL2I  PIC X(1).
+           02  CAT2L    COMP  PIC  S9(4).
+           02  CAT2F    PICTURE X.
+           02  FILLER REDEFINES CAT2F.
+             03 CAT2A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  CAT2I  PIC X(32).
+           02  SUBCAT2L    COMP  PIC  S9(4).
+           02  SUBCAT2F    PICTURE X.
+           02  FILLER REDEFINES SUBCAT2F.
+             03 SUBCAT2A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  SUBCAT2I  PIC X(32).
+           02  SEL3L    COMP  PIC  S9(4).
+           02  SEL3F    PICTURE X.
+           02  FILLER REDEFINES SEL3F.
+             03 SEL3A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  SEL3I  PIC X(1).
+           02  CAT3L    COMP  PIC  S9(4).
+           02  CAT3F    PICTURE X.
+           02  FILLER REDEFINES CAT3F.
+             03 CAT3A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  CAT3I  PIC X(32).
+           02  SUBCAT3L    COMP  PIC  S9(4).
+           02  SUBCAT3F    PICTURE X.
+           02  FILLER REDEFINES SUBCAT3F.
+             03 SUBCAT3A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  SUBCAT3I  PIC X(32).
+           02  SEL4L    COMP  PIC  S9(4).
+           02  SEL4F    PICTURE X.
+           02  FILLER REDEFINES SEL4F.
+             03 SEL4A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  SEL4I  PIC X(1).
+           02  CAT4L    COMP  PIC  S9(4).
+           02  CAT4F    PICTURE X.
+           02  FILLER REDEFINES CAT4F.
+             03 CAT4A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  CAT4I  PIC X(32).
+           02  SUBCAT4L    COMP  PIC  S9(4).
+           02  SUBCAT4F    PICTURE X.
+           02  FILLER REDEFINES SUBCAT4F.
+             03 SUBCAT4A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  SUBCAT4I  PIC X(32).
+           02  SEL5L    COMP  PIC  S9(4).
+           02  SEL5F    PICTURE X.
+           02  FILLER REDEFINES SEL5F.
+             03 SEL5A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  SEL5I  PIC X(1).
+           02  CAT5L    COMP  PIC  S9(4).
+           02  CAT5F    PICTURE X.
+           02  FILLER REDEFINES CAT5F.
+             03 CAT5A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  CAT5I  PIC X(32).
+           02  SUBCAT5L    COMP  PIC  S9(4).
+           02  SUBCAT5F    PICTURE X.
+           02  FILLER REDEFINES SUBCAT5F.
+             03 SUBCAT5A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  SUBCAT5I  PIC X(32).
+           02  SEL6L    COMP  PIC  S9(4).
+           02  SEL6F    PICTURE X.
+           02  FILLER REDEFINES SEL6F.
+             03 SEL6A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  SEL6I  PIC X(1).
+           02  CAT6L    COMP  PIC  S9(4).
+           02  CAT6F    PICTURE X.
+           02  FILLER REDEFINES CAT6F.
+             03 CAT6A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  CAT6I  PIC X(32).
+           02  SUBCAT6L    COMP  PIC  S9(4).
+           02  SUBCAT6F    PICTURE X.
+           02  FILLER REDEFINES SUBCAT6F.
+             03 SUBCAT6A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  SUBCAT6I  PIC X(32).
+           02  SEL7L    COMP  PIC  S9(4).
+           02  SEL7F    PICTURE X.
+           02  FILLER REDEFINES SEL7F.
+             03 SEL7A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  SEL7I  PIC X(1).
+           02  CAT7L    COMP  PIC  S9(4).
+           02  CAT7F    PICTURE X.
+           02  FILLER REDEFINES CAT7F.
+             03 CAT7A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  CAT7I  PIC X(32).
+           02  SUBCAT7L    COMP  PIC  S9(4).
+           02  SUBCAT7F    PICTURE X.
+           02  FILLER REDEFINES SUBCAT7F.
+             03 SUBCAT7A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  SUBCAT7I  PIC X(32).
+           02  SEL8L    COMP  PIC  S9(4).
+           02  SEL8F    PICTURE X.
+           02  FILLER REDEFINES SEL8F.
+             03 SEL8A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  SEL8I  PIC X(1).
+           02  CAT8L    COMP  PIC  S9(4).
+           02  CAT8F    PICTURE X.
+           02  FILLER REDEFINES CAT8F.
+             03 CAT8A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  CAT8I  PIC X(32).
+           02  SUBCAT8L    COMP  PIC  S9(4).
+           02  SUBCAT8F    PICTURE X.
+           02  FILLER REDEFINES SUBCAT8F.
+             03 SUBCAT8A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  SUBCAT8I  PIC X(32).
+           02  SEL9L    COMP  PIC  S9(4).
+           02  SEL9F    PICTURE X.
+           02  FILLER REDEFINES SEL9F.
+             03 SEL9A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  SEL9I  PIC X(1).
+           02  CAT9L    COMP  PIC  S9(4).
+           02  CAT9F    PICTURE X.
+           02  FILLER REDEFINES CAT9F.
+             03 CAT9A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  CAT9I  PIC X(32).
+           02  SUBCAT9L    COMP  PIC  S9(4).
+           02  SUBCAT9F    PICTURE X.
+           02  FILLER REDEFINES SUBCAT9F.
+             03 SUBCAT9A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  SUBCAT9I  PIC X(32).
+           02  SEL10L    COMP  PIC  S9(4).
+           02  SEL10F    PICTURE X.
+           02  FILLER REDEFINES SEL10F.
+             03 SEL10A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  SEL10I  PIC X(1).
+           02  CAT10L    COMP  PIC  S9(4).
+           02  CAT10F    PICTURE X.
+           02  FILLER REDEFINES CAT10F.
+             03 CAT10A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  CAT10I  PIC X(32).
+           02  SBCAT10L    COMP  PIC  S9(4).
+           02  SBCAT10F    PICTURE X.
+           02  FILLER REDEFINES SBCAT10F.
+             03 SBCAT10A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  SBCAT10I  PIC X(32).
+           02  SEL11L    COMP  PIC  S9(4).
+           02  SEL11F    PICTURE X.
+           02  FILLER REDEFINES SEL11F.
+             03 SEL11A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  SEL11I  PIC X(1).
+           02  CAT11L    COMP  PIC  S9(4).
+           02  CAT11F    PICTURE X.
+           02  FILLER REDEFINES CAT11F.
+             03 CAT11A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  CAT11I  PIC X(32).
+           02  SBCAT11L    COMP  PIC  S9(4).
+           02  SBCAT11F    PICTURE X.
+           02  FILLER REDEFINES SBCAT11F.
+             03 SBCAT11A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  SBCAT11I  PIC X(32).
+           02  SEL12L    COMP  PIC  S9(4).
+           02  SEL12F    PICTURE X.
+           02  FILLER REDEFINES SEL12F.
+             03 SEL12A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  SEL12I  PIC X(1).
+           02  CAT12L    COMP  PIC  S9(4).
+           02  CAT12F    PICTURE X.
+           02  FILLER REDEFINES CAT12F.
+             03 CAT12A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  CAT12I  PIC X(32).
+           02  SBCAT12L    COMP  PIC  S9(4).
+           02  SBCAT12F    PICTURE X.
+           02  FILLER REDEFINES SBCAT12F.
+             03 SBCAT12A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  SBCAT12I  PIC X(32).
+           02  SEL13L    COMP  PIC  S9(4).
+           02  SEL13F    PICTURE X.
+           02  FILLER REDEFINES SEL13F.
+             03 SEL13A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  SEL13I  PIC X(1).
+           02  CAT13L    COMP  PIC  S9(4).
+           02  CAT13F    PICTURE X.
+           02  FILLER REDEFINES CAT13F.
+             03 CAT13A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  CAT13I  PIC X(32).
+           02  SBCAT13L    COMP  PIC  S9(4).
+           02  SBCAT13F    PICTURE X.
+           02  FILLER REDEFINES SBCAT13F.
+             03 SBCAT13A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  SBCAT13I  PIC X(32).
+           02  SEL14L    COMP  PIC  S9(4).
+           02  SEL14F    PICTURE X.
+           02  FILLER REDEFINES SEL14F.
+             03 SEL14A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  SEL14I  PIC X(1).
+           02  CAT14L    COMP  PIC  S9(4).
+           02  CAT14F    PICTURE X.
+           02  FILLER REDEFINES CAT14F.
+             03 CAT14A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  CAT14I  PIC X(32).
+           02  SBCAT14L    COMP  PIC  S9(4).
+           02  SBCAT14F    PICTURE X.
+           02  FILLER REDEFINES SBCAT14F.
+             03 SBCAT14A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  SBCAT14I  PIC X(32).
+           02  SEL15L    COMP  PIC  S9(4).
+           02  SEL15F    PICTURE X.
+           02  FILLER REDEFINES SEL15F.
+             03 SEL15A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  SEL15I  PIC X(1).
+           02  CAT15L    COMP  PIC  S9(4).
+           02  CAT15F    PICTURE X.
+           02  FILLER REDEFINES CAT15F.
+             03 CAT15A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  CAT15I  PIC X(32).
+           02  SBCAT15L    COMP  PIC  S9(4).
+           02  SBCAT15F    PICTURE X.
+           02  FILLER REDEFINES SBCAT15F.
+             03 SBCAT15A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  SBCAT15I  PIC X(32).
+           02  PDAMSGL    COMP  PIC  S9(4).
+           02  PDAMSGF    PICTURE X.
+           02  FILLER REDEFINES PDAMSGF.
+             03 PDAMSGA    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  PDAMSGI  PIC X(79).
+       01  PDA005O REDEFINES PDA005I.
+           02  FILLER PIC X(12).
+           02  FILLER PICTURE X(3).
+           02  PDADATEC    PICTURE X.
+           02  PDADATEH    PICTURE X.
+           02  PDADATEO  PIC X(8).
+           02  FILLER PICTURE X(3).
+           02  PDATERMC    PICTURE X.
+           02  PDATERMH    PICTURE X.
+           02  PDATERMO  PIC X(8).
+           02  FILLER PICTURE X(3).
+           02  PDATIMEC    PICTURE X.
+           02  PDATIMEH    PICTURE X.
+           02  PDATIMEO  PIC X(8).
+           02  FILLER PICTURE X(3).
+           02  SEL1C    PICTURE X.
+           02  SEL1H    PICTURE X.
+           02  SEL1O  PIC X(1).
+           02  FILLER PICTURE X(3).
+           02  CAT1C    PICTURE X.
+           02  CAT1H    PICTURE X.
+           02  CAT1O  PIC X(32).
+           02  FILLER PICTURE X(3).
+           02  SUBCAT1C    PICTURE X.
+           02  SUBCAT1H    PICTURE X.
+           02  SUBCAT1O  PIC X(32).
+           02  FILLER PICTURE X(3).
+           02  SEL2C    PICTURE X.
+           02  SEL2H    PICTURE X.
+           02  SEL2O  PIC X(1).
+           02  FILLER PICTURE X(3).
+           02  CAT2C    PICTURE X.
+           02  CAT2H    PICTURE X.
+           02  CAT2O  PIC X(32).
+           02  FILLER PICTURE X(3).
+           02  SUBCAT2C    PICTURE X.
+           02  SUBCAT2H    PICTURE X.
+           02  SUBCAT2O  PIC X(32).
+           02  FILLER PICTURE X(3).
+           02  SEL3C    PICTURE X.
+           02  SEL3H    PICTURE X.
+           02  SEL3O  PIC X(1).
+           02  FILLER PICTURE X(3).
+           02  CAT3C    PICTURE X.
+           02  CAT3H    PICTURE X.
+           02  CAT3O  PIC X(32).
+           02  FILLER PICTURE X(3).
+           02  SUBCAT3C    PICTURE X.
+           02  SUBCAT3H    PICTURE X.
+           02  SUBCAT3O  PIC X(32).
+           02  FILLER PICTURE X(3).
+           02  SEL4C    PICTURE X.
+           02  SEL4H    PICTURE X.
+           02  SEL4O  PIC X(1).
+           02  FILLER PICTURE X(3).
+           02  CAT4C    PICTURE X.
+           02  CAT4H    PICTURE X.
+           02  CAT4O  PIC X(32).
+           02  FILLER PICTURE X(3).
+           02  SUBCAT4C    PICTURE X.
+           02  SUBCAT4H    PICTURE X.
+           02  SUBCAT4O  PIC X(32).
+           02  FILLER PICTURE X(3).
+           02  SEL5C    PICTURE X.
+           02  SEL5H    PICTURE X.
+           02  SEL5O  PIC X(1).
+           02  FILLER PICTURE X(3).
+           02  CAT5C    PICTURE X.
+           02  CAT5H    PICTURE X.
+           02  CAT5O  PIC X(32).
+           02  FILLER PICTURE X(3).
+           02  SUBCAT5C    PICTURE X.
+           02  SUBCAT5H    PICTURE X.
+           02  SUBCAT5O  PIC X(32).
+           02  FILLER PICTURE X(3).
+           02  SEL6C    PICTURE X.
+           02  SEL6H    PICTURE X.
+           02  SEL6O  PIC X(1).
+           02  FILLER PICTURE X(3).
+           02  CAT6C    PICTURE X.
+           02  CAT6H    PICTURE X.
+           02  CAT6O  PIC X(32).
+           02  FILLER PICTURE X(3).
+           02  SUBCAT6C    PICTURE X.
+           02  SUBCAT6H    PICTURE X.
+           02  SUBCAT6O  PIC X(32).
+           02  FILLER PICTURE X(3).
+           02  SEL7C    PICTURE X.
+           02  SEL7H    PICTURE X.
+           02  SEL7O  PIC X(1).
+           02  FILLER PICTURE X(3).
+           02  CAT7C    PICTURE X.
+           02  CAT7H    PICTURE X.
+           02  CAT7O  PIC X(32).
+           02  FILLER PICTURE X(3).
+           02  SUBCAT7C    PICTURE X.
+           02  SUBCAT7H    PICTURE X.
+           02  SUBCAT7O  PIC X(32).
+           02  FILLER PICTURE X(3).
+           02  SEL8C    PICTURE X.
+           02  SEL8H    PICTURE X.
+           02  SEL8O  PIC X(1).
+           02  FILLER PICTURE X(3).
+           02  CAT8C    PICTURE X.
+           02  CAT8H    PICTURE X.
+           02  CAT8O  PIC X(32).
+           02  FILLER PICTURE X(3).
+           02  SUBCAT8C    PICTURE X.
+           02  SUBCAT8H    PICTURE X.
+           02  SUBCAT8O  PIC X(32).
+           02  FILLER PICTURE X(3).
+           02  SEL9C    PICTURE X.
+           02  SEL9H    PICTURE X.
+           02  SEL9O  PIC X(1).
+           02  FILLER PICTURE X(3).
+           02  CAT9C    PICTURE X.
+           02  CAT9H    PICTURE X.
+           02  CAT9O  PIC X(32).
+           02  FILLER PICTURE X(3).
+           02  SUBCAT9C    PICTURE X.
+           02  SUBCAT9H    PICTURE X.
+           02  SUBCAT9O  PIC X(32).
+           02  FILLER PICTURE X(3).
+           02  SEL10C    PICTURE X.
+           02  SEL10H    PICTURE X.
+           02  SEL10O  PIC X(1).
+           02  FILLER PICTURE X(3).
+           02  CAT10C    PICTURE X.
+           02  CAT10H    PICTURE X.
+           02  CAT10O  PIC X(32).
+           02  FILLER PICTURE X(3).
+           02  SBCAT10C    PICTURE X.
+           02  SBCAT10H    PICTURE X.
+           02  SBCAT10O  PIC X(32).
+           02  FILLER PICTURE X(3).
+           02  SEL11C    PICTURE X.
+           02  SEL11H    PICTURE X.
+           02  SEL11O  PIC X(1).
+           02  FILLER PICTURE X(3).
+           02  CAT11C    PICTURE X.
+           02  CAT11H    PICTURE X.
+           02  CAT11O  PIC X(32).
+           02  FILLER PICTURE X(3).
+           02  SBCAT11C    PICTURE X.
+           02  SBCAT11H    PICTURE X.
+           02  SBCAT11O  PIC X(32).
+           02  FILLER PICTURE X(3).
+           02  SEL12C    PICTURE X.
+           02  SEL12H    PICTURE X.
+           02  SEL12O  PIC X(1).
+           02  FILLER PICTURE X(3).
+           02  CAT12C    PICTURE X.
+           02  CAT12H    PICTURE X.
+           02  CAT12O  PIC X(32).
+           02  FILLER PICTURE X(3).
+           02  SBCAT12C    PICTURE X.
+           02  SBCAT12H    PICTURE X.
+           02  SBCAT12O  PIC X(32).
+           02  FILLER PICTURE X(3).
+           02  SEL13C    PICTURE X.
+           02  SEL13H    PICTURE X.
+           02  SEL13O  PIC X(1).
+           02  FILLER PICTURE X(3).
+           02  CAT13C    PICTURE X.
+           02  CAT13H    PICTURE X.
+           02  CAT13O  PIC X(32).
+           02  FILLER PICTURE X(3).
+           02  SBCAT13C    PICTURE X.
+           02  SBCAT13H    PICTURE X.
+           02  SBCAT13O  PIC X(32).
+           02  FILLER PICTURE X(3).
+           02  SEL14C    PICTURE X.
+           02  SEL14H    PICTURE X.
+           02  SEL14O  PIC X(1).
+           02  FILLER PICTURE X(3).
+           02  CAT14C    PICTURE X.
+           02  CAT14H    PICTURE X.
+           02  CAT14O  PIC X(32).
+           02  FILLER PICTURE X(3).
+           02  SBCAT14C    PICTURE X.
+           02  SBCAT14H    PICTURE X.
+           02  SBCAT14O  PIC X(32).
+           02  FILLER PICTURE X(3).
+           02  SEL15C    PICTURE X.
+           02  SEL15H    PICTURE X.
+           02  SEL15O  PIC X(1).
+           02  FILLER PICTURE X(3).
+           02  CAT15C    PICTURE X.
+           02  CAT15H    PICTURE X.
+           02  CAT15O  PIC X(32).
+           02  FILLER PICTURE X(3).
+           02  SBCAT15C    PICTURE X.
+           02  SBCAT15H    PICTURE X.
+           02  SBCAT15O  PIC X(32).
+           02  FILLER PICTURE X(3).
+           02  PDAMSGC    PICTURE X.
+           02  PDAMSGH    PICTURE X.
+           02  PDAMSGO  PIC X(79).

@@ -1,0 +1,344 @@
+       01  PDA012I.
+           02  FILLER PIC X(12).
+           02  PDADATEL    COMP  PIC  S9(4).
+           02  PDADATEF    PICTURE X.
+           02  FILLER REDEFINES PDADATEF.
+             03 PDADATEA    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  PDADATEI  PIC X(8).
+           02  PDATERML    COMP  PIC  S9(4).
+           02  PDATERMF    PICTURE X.
+           02  FILLER REDEFINES PDATERMF.
+             03 PDATERMA    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  PDATERMI  PIC X(8).
+           02  PDATIMEL    COMP  PIC  S9(4).
+           02  PDATIMEF    PICTURE X.
+           02  FILLER REDEFINES PDATIMEF.
+             03 PDATIMEA    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  PDATIMEI  PIC X(8).
+           02  ORDSEL1L    COMP  PIC  S9(4).
+           02  ORDSEL1F    PICTURE X.
+           02  FILLER REDEFINES ORDSEL1F.
+             03 ORDSEL1A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  ORDSEL1I  PIC X(1).
+           02  ORDNBR1L    COMP  PIC  S9(4).
+           02  ORDNBR1F    PICTURE X.
+           02  FILLER REDEFINES ORDNBR1F.
+             03 ORDNBR1A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  ORDNBR1I  PIC X(10).
+           02  ORDDAT1L    COMP  PIC  S9(4).
+           02  ORDDAT1F    PICTURE X.
+           02  FILLER REDEFINES ORDDAT1F.
+             03 ORDDAT1A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  ORDDAT1I  PIC X(8).
+           02  TOTAMT1L    COMP  PIC  S9(4).
+           02  TOTAMT1F    PICTURE X.
+           02  FILLER REDEFINES TOTAMT1F.
+             03 TOTAMT1A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  TOTAMT1I  PIC X(12).
+           02  ORDSTA1L    COMP  PIC  S9(4).
+           02  ORDSTA1F    PICTURE X.
+           02  FILLER REDEFINES ORDSTA1F.
+             03 ORDSTA1A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  ORDSTA1I  PIC X(14).
+           02  CUSNAM1L    COMP  PIC  S9(4).
+           02  CUSNAM1F    PICTURE X.
+           02  FILLER REDEFINES CUSNAM1F.
+             03 CUSNAM1A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  CUSNAM1I  PIC X(64).
+           02  ORDSEL2L    COMP  PIC  S9(4).
+           02  ORDSEL2F    PICTURE X.
+           02  FILLER REDEFINES ORDSEL2F.
+             03 ORDSEL2A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  ORDSEL2I  PIC X(1).
+           02  ORDNBR2L    COMP  PIC  S9(4).
+           02  ORDNBR2F    PICTURE X.
+           02  FILLER REDEFINES ORDNBR2F.
+             03 ORDNBR2A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  ORDNBR2I  PIC X(10).
+           02  ORDDAT2L    COMP  PIC  S9(4).
+           02  ORDDAT2F    PICTURE X.
+           02  FILLER REDEFINES ORDDAT2F.
+             03 ORDDAT2A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  ORDDAT2I  PIC X(8).
+           02  TOTAMT2L    COMP  PIC  S9(4).
+           02  TOTAMT2F    PICTURE X.
+           02  FILLER REDEFINES TOTAMT2F.
+             03 TOTAMT2A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  TOTAMT2I  PIC X(12).
+           02  ORDSTA2L    COMP  PIC  S9(4).
+           02  ORDSTA2F    PICTURE X.
+           02  FILLER REDEFINES ORDSTA2F.
+             03 ORDSTA2A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  ORDSTA2I  PIC X(14).
+           02  CUSNAM2L    COMP  PIC  S9(4).
+           02  CUSNAM2F    PICTURE X.
+           02  FILLER REDEFINES CUSNAM2F.
+             03 CUSNAM2A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  CUSNAM2I  PIC X(64).
+           02  ORDSEL3L    COMP  PIC  S9(4).
+           02  ORDSEL3F    PICTURE X.
+           02  FILLER REDEFINES ORDSEL3F.
+             03 ORDSEL3A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  ORDSEL3I  PIC X(1).
+           02  ORDNBR3L    COMP  PIC  S9(4).
+           02  ORDNBR3F    PICTURE X.
+           02  FILLER REDEFINES ORDNBR3F.
+             03 ORDNBR3A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  ORDNBR3I  PIC X(10).
+           02  ORDDAT3L    COMP  PIC  S9(4).
+           02  ORDDAT3F    PICTURE X.
+           02  FILLER REDEFINES ORDDAT3F.
+             03 ORDDAT3A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  ORDDAT3I  PIC X(8).
+           02  TOTAMT3L    COMP  PIC  S9(4).
+           02  TOTAMT3F    PICTURE X.
+           02  FILLER REDEFINES TOTAMT3F.
+             03 TOTAMT3A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  TOTAMT3I  PIC X(12).
+           02  ORDSTA3L    COMP  PIC  S9(4).
+           02  ORDSTA3F    PICTURE X.
+           02  FILLER REDEFINES ORDSTA3F.
+             03 ORDSTA3A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  ORDSTA3I  PIC X(14).
+           02  CUSNAM3L    COMP  PIC  S9(4).
+           02  CUSNAM3F    PICTURE X.
+           02  FILLER REDEFINES CUSNAM3F.
+             03 CUSNAM3A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  CUSNAM3I  PIC X(64).
+           02  ORDSEL4L    COMP  PIC  S9(4).
+           02  ORDSEL4F    PICTURE X.
+           02  FILLER REDEFINES ORDSEL4F.
+             03 ORDSEL4A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  ORDSEL4I  PIC X(1).
+           02  ORDNBR4L    COMP  PIC  S9(4).
+           02  ORDNBR4F    PICTURE X.
+           02  FILLER REDEFINES ORDNBR4F.
+             03 ORDNBR4A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  ORDNBR4I  PIC X(10).
+           02  ORDDAT4L    COMP  PIC  S9(4).
+           02  ORDDAT4F    PICTURE X.
+           02  FILLER REDEFINES ORDDAT4F.
+             03 ORDDAT4A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  ORDDAT4I  PIC X(8).
+           02  TOTAMT4L    COMP  PIC  S9(4).
+           02  TOTAMT4F    PICTURE X.
+           02  FILLER REDEFINES TOTAMT4F.
+             03 TOTAMT4A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  TOTAMT4I  PIC X(12).
+           02  ORDSTA4L    COMP  PIC  S9(4).
+           02  ORDSTA4F    PICTURE X.
+           02  FILLER REDEFINES ORDSTA4F.
+             03 ORDSTA4A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  ORDSTA4I  PIC X(14).
+           02  CUSNAM4L    COMP  PIC  S9(4).
+           02  CUSNAM4F    PICTURE X.
+           02  FILLER REDEFINES CUSNAM4F.
+             03 CUSNAM4A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  CUSNAM4I  PIC X(64).
+           02  ORDSEL5L    COMP  PIC  S9(4).
+           02  ORDSEL5F    PICTURE X.
+           02  FILLER REDEFINES ORDSEL5F.
+             03 ORDSEL5A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  ORDSEL5I  PIC X(1).
+           02  ORDNBR5L    COMP  PIC  S9(4).
+           02  ORDNBR5F    PICTURE X.
+           02  FILLER REDEFINES ORDNBR5F.
+             03 ORDNBR5A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  ORDNBR5I  PIC X(10).
+           02  ORDDAT5L    COMP  PIC  S9(4).
+           02  ORDDAT5F    PICTURE X.
+           02  FILLER REDEFINES ORDDAT5F.
+             03 ORDDAT5A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  ORDDAT5I  PIC X(8).
+           02  TOTAMT5L    COMP  PIC  S9(4).
+           02  TOTAMT5F    PICTURE X.
+           02  FILLER REDEFINES TOTAMT5F.
+             03 TOTAMT5A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  TOTAMT5I  PIC X(12).
+           02  ORDSTA5L    COMP  PIC  S9(4).
+           02  ORDSTA5F    PICTURE X.
+           02  FILLER REDEFINES ORDSTA5F.
+             03 ORDSTA5A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  ORDSTA5I  PIC X(14).
+           02  CUSNAM5L    COMP  PIC  S9(4).
+           02  CUSNAM5F    PICTURE X.
+           02  FILLER REDEFINES CUSNAM5F.
+             03 CUSNAM5A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  CUSNAM5I  PIC X(64).
+           02  PDAMSGL    COMP  PIC  S9(4).
+           02  PDAMSGF    PICTURE X.
+           02  FILLER REDEFINES PDAMSGF.
+             03 PDAMSGA    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  PDAMSGI  PIC X(79).
+       01  PDA012O REDEFINES PDA012I.
+           02  FILLER PIC X(12).
+           02  FILLER PICTURE X(3).
+           02  PDADATEC    PICTURE X.
+           02  PDADATEH    PICTURE X.
+           02  PDADATEO  PIC X(8).
+           02  FILLER PICTURE X(3).
+           02  PDATERMC    PICTURE X.
+           02  PDATERMH    PICTURE X.
+           02  PDATERMO  PIC X(8).
+           02  FILLER PICTURE X(3).
+           02  PDATIMEC    PICTURE X.
+           02  PDATIMEH    PICTURE X.
+           02  PDATIMEO  PIC X(8).
+           02  FILLER PICTURE X(3).
+           02  ORDSEL1C    PICTURE X.
+           02  ORDSEL1H    PICTURE X.
+           02  ORDSEL1O  PIC X(1).
+           02  FILLER PICTURE X(3).
+           02  ORDNBR1C    PICTURE X.
+           02  ORDNBR1H    PICTURE X.
+           02  ORDNBR1O  PIC X(10).
+           02  FILLER PICTURE X(3).
+           02  ORDDAT1C    PICTURE X.
+           02  ORDDAT1H    PICTURE X.
+           02  ORDDAT1O  PIC X(8).
+           02  FILLER PICTURE X(3).
+           02  TOTAMT1C    PICTURE X.
+           02  TOTAMT1H    PICTURE X.
+           02  TOTAMT1O PIC Z,ZZZ,ZZ9.99.
+           02  FILLER PICTURE X(3).
+           02  ORDSTA1C    PICTURE X.
+           02  ORDSTA1H    PICTURE X.
+           02  ORDSTA1O  PIC X(14).
+           02  FILLER PICTURE X(3).
+           02  CUSNAM1C    PICTURE X.
+           02  CUSNAM1H    PICTURE X.
+           02  CUSNAM1O  PIC X(64).
+           02  FILLER PICTURE X(3).
+           02  ORDSEL2C    PICTURE X.
+           02  ORDSEL2H    PICTURE X.
+           02  ORDSEL2O  PIC X(1).
+           02  FILLER PICTURE X(3).
+           02  ORDNBR2C    PICTURE X.
+           02  ORDNBR2H    PICTURE X.
+           02  ORDNBR2O  PIC X(10).
+           02  FILLER PICTURE X(3).
+           02  ORDDAT2C    PICTURE X.
+           02  ORDDAT2H    PICTURE X.
+           02  ORDDAT2O  PIC X(8).
+           02  FILLER PICTURE X(3).
+           02  TOTAMT2C    PICTURE X.
+           02  TOTAMT2H    PICTURE X.
+           02  TOTAMT2O PIC Z,ZZZ,ZZ9.99.
+           02  FILLER PICTURE X(3).
+           02  ORDSTA2C    PICTURE X.
+           02  ORDSTA2H    PICTURE X.
+           02  ORDSTA2O  PIC X(14).
+           02  FILLER PICTURE X(3).
+           02  CUSNAM2C    PICTURE X.
+           02  CUSNAM2H    PICTURE X.
+           02  CUSNAM2O  PIC X(64).
+           02  FILLER PICTURE X(3).
+           02  ORDSEL3C    PICTURE X.
+           02  ORDSEL3H    PICTURE X.
+           02  ORDSEL3O  PIC X(1).
+           02  FILLER PICTURE X(3).
+           02  ORDNBR3C    PICTURE X.
+           02  ORDNBR3H    PICTURE X.
+           02  ORDNBR3O  PIC X(10).
+           02  FILLER PICTURE X(3).
+           02  ORDDAT3C    PICTURE X.
+           02  ORDDAT3H    PICTURE X.
+           02  ORDDAT3O  PIC X(8).
+           02  FILLER PICTURE X(3).
+           02  TOTAMT3C    PICTURE X.
+           02  TOTAMT3H    PICTURE X.
+           02  TOTAMT3O PIC Z,ZZZ,ZZ9.99.
+           02  FILLER PICTURE X(3).
+           02  ORDSTA3C    PICTURE X.
+           02  ORDSTA3H    PICTURE X.
+           02  ORDSTA3O  PIC X(14).
+           02  FILLER PICTURE X(3).
+           02  CUSNAM3C    PICTURE X.
+           02  CUSNAM3H    PICTURE X.
+           02  CUSNAM3O  PIC X(64).
+           02  FILLER PICTURE X(3).
+           02  ORDSEL4C    PICTURE X.
+           02  ORDSEL4H    PICTURE X.
+           02  ORDSEL4O  PIC X(1).
+           02  FILLER PICTURE X(3).
+           02  ORDNBR4C    PICTURE X.
+           02  ORDNBR4H    PICTURE X.
+           02  ORDNBR4O  PIC X(10).
+           02  FILLER PICTURE X(3).
+           02  ORDDAT4C    PICTURE X.
+           02  ORDDAT4H    PICTURE X.
+           02  ORDDAT4O  PIC X(8).
+           02  FILLER PICTURE X(3).
+           02  TOTAMT4C    PICTURE X.
+           02  TOTAMT4H    PICTURE X.
+           02  TOTAMT4O PIC Z,ZZZ,ZZ9.99.
+           02  FILLER PICTURE X(3).
+           02  ORDSTA4C    PICTURE X.
+           02  ORDSTA4H    PICTURE X.
+           02  ORDSTA4O  PIC X(14).
+           02  FILLER PICTURE X(3).
+           02  CUSNAM4C    PICTURE X.
+           02  CUSNAM4H    PICTURE X.
+           02  CUSNAM4O  PIC X(64).
+           02  FILLER PICTURE X(3).
+           02  ORDSEL5C    PICTURE X.
+           02  ORDSEL5H    PICTURE X.
+           02  ORDSEL5O  PIC X(1).
+           02  FILLER PICTURE X(3).
+           02  ORDNBR5C    PICTURE X.
+           02  ORDNBR5H    PICTURE X.
+           02  ORDNBR5O  PIC X(10).
+           02  FILLER PICTURE X(3).
+           02  ORDDAT5C    PICTURE X.
+           02  ORDDAT5H    PICTURE X.
+           02  ORDDAT5O  PIC X(8).
+           02  FILLER PICTURE X(3).
+           02  TOTAMT5C    PICTURE X.
+           02  TOTAMT5H    PICTURE X.
+           02  TOTAMT5O PIC Z,ZZZ,ZZ9.99.
+           02  FILLER PICTURE X(3).
+           02  ORDSTA5C    PICTURE X.
+           02  ORDSTA5H    PICTURE X.
+           02  ORDSTA5O  PIC X(14).
+           02  FILLER PICTURE X(3).
+           02  CUSNAM5C    PICTURE X.
+           02  CUSNAM5H    PICTURE X.
+           02  CUSNAM5O  PIC X(64).
+           02  FILLER PICTURE X(3).
+           02  PDAMSGC    PICTURE X.
+           02  PDAMSGH    PICTURE X.
+           02  PDAMSGO  PIC X(79).

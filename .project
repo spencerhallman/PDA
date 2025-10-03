@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>PDA</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+	</buildSpec>
+	<natures>
+		<nature>com.compuware.ecc.core.natures.compuwareNature</nature>
+		<nature>com.compuware.ecc.core.natures.offlineProjectNature</nature>
+		<nature>com.compuware.frameworks.hostservices.copybooks.local.localCopybooksNature</nature>
+	</natures>
+</projectDescription>

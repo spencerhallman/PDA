@@ -1,0 +1,434 @@
+       01  PDA016I.
+           02  FILLER PIC X(12).
+           02  PDADATEL    COMP  PIC  S9(4).
+           02  PDADATEF    PICTURE X.
+           02  FILLER REDEFINES PDADATEF.
+             03 PDADATEA    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  PDADATEI  PIC X(8).
+           02  PDATERML    COMP  PIC  S9(4).
+           02  PDATERMF    PICTURE X.
+           02  FILLER REDEFINES PDATERMF.
+             03 PDATERMA    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  PDATERMI  PIC X(8).
+           02  PDATIMEL    COMP  PIC  S9(4).
+           02  PDATIMEF    PICTURE X.
+           02  FILLER REDEFINES PDATIMEF.
+             03 PDATIMEA    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  PDATIMEI  PIC X(8).
+           02  PDACUSTL    COMP  PIC  S9(4).
+           02  PDACUSTF    PICTURE X.
+           02  FILLER REDEFINES PDACUSTF.
+             03 PDACUSTA    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  PDACUSTI  PIC X(32).
+           02  CRSTATL    COMP  PIC  S9(4).
+           02  CRSTATF    PICTURE X.
+           02  FILLER REDEFINES CRSTATF.
+             03 CRSTATA    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  CRSTATI  PIC X(14).
+           02  NAMEL    COMP  PIC  S9(4).
+           02  NAMEF    PICTURE X.
+           02  FILLER REDEFINES NAMEF.
+             03 NAMEA    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  NAMEI  PIC X(64).
+           02  TOTORDL    COMP  PIC  S9(4).
+           02  TOTORDF    PICTURE X.
+           02  FILLER REDEFINES TOTORDF.
+             03 TOTORDA    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  TOTORDI  PIC X(5).
+           02  TOTAMTHL    COMP  PIC  S9(4).
+           02  TOTAMTHF    PICTURE X.
+           02  FILLER REDEFINES TOTAMTHF.
+             03 TOTAMTHA    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  TOTAMTHI  PIC X(22).
+           02  TOTAMTL    COMP  PIC  S9(4).
+           02  TOTAMTF    PICTURE X.
+           02  FILLER REDEFINES TOTAMTF.
+             03 TOTAMTA    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  TOTAMTI  PIC X(14).
+           02  AVGAMTHL    COMP  PIC  S9(4).
+           02  AVGAMTHF    PICTURE X.
+           02  FILLER REDEFINES AVGAMTHF.
+             03 AVGAMTHA    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  AVGAMTHI  PIC X(22).
+           02  AVGAMTL    COMP  PIC  S9(4).
+           02  AVGAMTF    PICTURE X.
+           02  FILLER REDEFINES AVGAMTF.
+             03 AVGAMTA    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  AVGAMTI  PIC X(14).
+           02  LORDDTEL    COMP  PIC  S9(4).
+           02  LORDDTEF    PICTURE X.
+           02  FILLER REDEFINES LORDDTEF.
+             03 LORDDTEA    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  LORDDTEI  PIC X(8).
+           02  LORDAMTL    COMP  PIC  S9(4).
+           02  LORDAMTF    PICTURE X.
+           02  FILLER REDEFINES LORDAMTF.
+             03 LORDAMTA    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  LORDAMTI  PIC X(14).
+           02  LORDNBRL    COMP  PIC  S9(4).
+           02  LORDNBRF    PICTURE X.
+           02  FILLER REDEFINES LORDNBRF.
+             03 LORDNBRA    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  LORDNBRI  PIC X(10).
+           02  ORNBR01L    COMP  PIC  S9(4).
+           02  ORNBR01F    PICTURE X.
+           02  FILLER REDEFINES ORNBR01F.
+             03 ORNBR01A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  ORNBR01I  PIC X(10).
+           02  ORAMT01L    COMP  PIC  S9(4).
+           02  ORAMT01F    PICTURE X.
+           02  FILLER REDEFINES ORAMT01F.
+             03 ORAMT01A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  ORAMT01I  PIC X(12).
+           02  ORNBR02L    COMP  PIC  S9(4).
+           02  ORNBR02F    PICTURE X.
+           02  FILLER REDEFINES ORNBR02F.
+             03 ORNBR02A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  ORNBR02I  PIC X(10).
+           02  ORAMT02L    COMP  PIC  S9(4).
+           02  ORAMT02F    PICTURE X.
+           02  FILLER REDEFINES ORAMT02F.
+             03 ORAMT02A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  ORAMT02I  PIC X(12).
+           02  ORNBR03L    COMP  PIC  S9(4).
+           02  ORNBR03F    PICTURE X.
+           02  FILLER REDEFINES ORNBR03F.
+             03 ORNBR03A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  ORNBR03I  PIC X(10).
+           02  ORAMT03L    COMP  PIC  S9(4).
+           02  ORAMT03F    PICTURE X.
+           02  FILLER REDEFINES ORAMT03F.
+             03 ORAMT03A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  ORAMT03I  PIC X(12).
+           02  ORNBR04L    COMP  PIC  S9(4).
+           02  ORNBR04F    PICTURE X.
+           02  FILLER REDEFINES ORNBR04F.
+             03 ORNBR04A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  ORNBR04I  PIC X(10).
+           02  ORAMT04L    COMP  PIC  S9(4).
+           02  ORAMT04F    PICTURE X.
+           02  FILLER REDEFINES ORAMT04F.
+             03 ORAMT04A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  ORAMT04I  PIC X(12).
+           02  ORNBR05L    COMP  PIC  S9(4).
+           02  ORNBR05F    PICTURE X.
+           02  FILLER REDEFINES ORNBR05F.
+             03 ORNBR05A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  ORNBR05I  PIC X(10).
+           02  ORAMT05L    COMP  PIC  S9(4).
+           02  ORAMT05F    PICTURE X.
+           02  FILLER REDEFINES ORAMT05F.
+             03 ORAMT05A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  ORAMT05I  PIC X(12).
+           02  ORNBR06L    COMP  PIC  S9(4).
+           02  ORNBR06F    PICTURE X.
+           02  FILLER REDEFINES ORNBR06F.
+             03 ORNBR06A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  ORNBR06I  PIC X(10).
+           02  ORAMT06L    COMP  PIC  S9(4).
+           02  ORAMT06F    PICTURE X.
+           02  FILLER REDEFINES ORAMT06F.
+             03 ORAMT06A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  ORAMT06I  PIC X(12).
+           02  ORNBR07L    COMP  PIC  S9(4).
+           02  ORNBR07F    PICTURE X.
+           02  FILLER REDEFINES ORNBR07F.
+             03 ORNBR07A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  ORNBR07I  PIC X(10).
+           02  ORAMT07L    COMP  PIC  S9(4).
+           02  ORAMT07F    PICTURE X.
+           02  FILLER REDEFINES ORAMT07F.
+             03 ORAMT07A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  ORAMT07I  PIC X(12).
+           02  ORNBR08L    COMP  PIC  S9(4).
+           02  ORNBR08F    PICTURE X.
+           02  FILLER REDEFINES ORNBR08F.
+             03 ORNBR08A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  ORNBR08I  PIC X(10).
+           02  ORAMT08L    COMP  PIC  S9(4).
+           02  ORAMT08F    PICTURE X.
+           02  FILLER REDEFINES ORAMT08F.
+             03 ORAMT08A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  ORAMT08I  PIC X(12).
+           02  ORNBR09L    COMP  PIC  S9(4).
+           02  ORNBR09F    PICTURE X.
+           02  FILLER REDEFINES ORNBR09F.
+             03 ORNBR09A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  ORNBR09I  PIC X(10).
+           02  ORAMT09L    COMP  PIC  S9(4).
+           02  ORAMT09F    PICTURE X.
+           02  FILLER REDEFINES ORAMT09F.
+             03 ORAMT09A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  ORAMT09I  PIC X(12).
+           02  ORNBR10L    COMP  PIC  S9(4).
+           02  ORNBR10F    PICTURE X.
+           02  FILLER REDEFINES ORNBR10F.
+             03 ORNBR10A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  ORNBR10I  PIC X(10).
+           02  ORAMT10L    COMP  PIC  S9(4).
+           02  ORAMT10F    PICTURE X.
+           02  FILLER REDEFINES ORAMT10F.
+             03 ORAMT10A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  ORAMT10I  PIC X(12).
+           02  ORNBR11L    COMP  PIC  S9(4).
+           02  ORNBR11F    PICTURE X.
+           02  FILLER REDEFINES ORNBR11F.
+             03 ORNBR11A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  ORNBR11I  PIC X(10).
+           02  ORAMT11L    COMP  PIC  S9(4).
+           02  ORAMT11F    PICTURE X.
+           02  FILLER REDEFINES ORAMT11F.
+             03 ORAMT11A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  ORAMT11I  PIC X(12).
+           02  ORNBR12L    COMP  PIC  S9(4).
+           02  ORNBR12F    PICTURE X.
+           02  FILLER REDEFINES ORNBR12F.
+             03 ORNBR12A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  ORNBR12I  PIC X(10).
+           02  ORAMT12L    COMP  PIC  S9(4).
+           02  ORAMT12F    PICTURE X.
+           02  FILLER REDEFINES ORAMT12F.
+             03 ORAMT12A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  ORAMT12I  PIC X(12).
+           02  ORNBR13L    COMP  PIC  S9(4).
+           02  ORNBR13F    PICTURE X.
+           02  FILLER REDEFINES ORNBR13F.
+             03 ORNBR13A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  ORNBR13I  PIC X(10).
+           02  ORAMT13L    COMP  PIC  S9(4).
+           02  ORAMT13F    PICTURE X.
+           02  FILLER REDEFINES ORAMT13F.
+             03 ORAMT13A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  ORAMT13I  PIC X(12).
+           02  ORNBR14L    COMP  PIC  S9(4).
+           02  ORNBR14F    PICTURE X.
+           02  FILLER REDEFINES ORNBR14F.
+             03 ORNBR14A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  ORNBR14I  PIC X(10).
+           02  ORAMT14L    COMP  PIC  S9(4).
+           02  ORAMT14F    PICTURE X.
+           02  FILLER REDEFINES ORAMT14F.
+             03 ORAMT14A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  ORAMT14I  PIC X(12).
+           02  PDAMSGL    COMP  PIC  S9(4).
+           02  PDAMSGF    PICTURE X.
+           02  FILLER REDEFINES PDAMSGF.
+             03 PDAMSGA    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  PDAMSGI  PIC X(79).
+       01  PDA016O REDEFINES PDA016I.
+           02  FILLER PIC X(12).
+           02  FILLER PICTURE X(3).
+           02  PDADATEC    PICTURE X.
+           02  PDADATEH    PICTURE X.
+           02  PDADATEO  PIC X(8).
+           02  FILLER PICTURE X(3).
+           02  PDATERMC    PICTURE X.
+           02  PDATERMH    PICTURE X.
+           02  PDATERMO  PIC X(8).
+           02  FILLER PICTURE X(3).
+           02  PDATIMEC    PICTURE X.
+           02  PDATIMEH    PICTURE X.
+           02  PDATIMEO  PIC X(8).
+           02  FILLER PICTURE X(3).
+           02  PDACUSTC    PICTURE X.
+           02  PDACUSTH    PICTURE X.
+           02  PDACUSTO  PIC X(32).
+           02  FILLER PICTURE X(3).
+           02  CRSTATC    PICTURE X.
+           02  CRSTATH    PICTURE X.
+           02  CRSTATO  PIC X(14).
+           02  FILLER PICTURE X(3).
+           02  NAMEC    PICTURE X.
+           02  NAMEH    PICTURE X.
+           02  NAMEO  PIC X(64).
+           02  FILLER PICTURE X(3).
+           02  TOTORDC    PICTURE X.
+           02  TOTORDH    PICTURE X.
+           02  TOTORDO PIC ZZZZ9.
+           02  FILLER PICTURE X(3).
+           02  TOTAMTHC    PICTURE X.
+           02  TOTAMTHH    PICTURE X.
+           02  TOTAMTHO  PIC X(22).
+           02  FILLER PICTURE X(3).
+           02  TOTAMTC    PICTURE X.
+           02  TOTAMTH    PICTURE X.
+           02  TOTAMTO PIC ZZZ,ZZZ,ZZ9.99.
+           02  FILLER PICTURE X(3).
+           02  AVGAMTHC    PICTURE X.
+           02  AVGAMTHH    PICTURE X.
+           02  AVGAMTHO  PIC X(22).
+           02  FILLER PICTURE X(3).
+           02  AVGAMTC    PICTURE X.
+           02  AVGAMTH    PICTURE X.
+           02  AVGAMTO PIC ZZZ,ZZZ,ZZ9.99.
+           02  FILLER PICTURE X(3).
+           02  LORDDTEC    PICTURE X.
+           02  LORDDTEH    PICTURE X.
+           02  LORDDTEO  PIC X(8).
+           02  FILLER PICTURE X(3).
+           02  LORDAMTC    PICTURE X.
+           02  LORDAMTH    PICTURE X.
+           02  LORDAMTO PIC ZZZ,ZZZ,ZZ9.99.
+           02  FILLER PICTURE X(3).
+           02  LORDNBRC    PICTURE X.
+           02  LORDNBRH    PICTURE X.
+           02  LORDNBRO  PIC X(10).
+           02  FILLER PICTURE X(3).
+           02  ORNBR01C    PICTURE X.
+           02  ORNBR01H    PICTURE X.
+           02  ORNBR01O  PIC X(10).
+           02  FILLER PICTURE X(3).
+           02  ORAMT01C    PICTURE X.
+           02  ORAMT01H    PICTURE X.
+           02  ORAMT01O PIC Z,ZZZ,ZZ9.99.
+           02  FILLER PICTURE X(3).
+           02  ORNBR02C    PICTURE X.
+           02  ORNBR02H    PICTURE X.
+           02  ORNBR02O  PIC X(10).
+           02  FILLER PICTURE X(3).
+           02  ORAMT02C    PICTURE X.
+           02  ORAMT02H    PICTURE X.
+           02  ORAMT02O PIC Z,ZZZ,ZZ9.99.
+           02  FILLER PICTURE X(3).
+           02  ORNBR03C    PICTURE X.
+           02  ORNBR03H    PICTURE X.
+           02  ORNBR03O  PIC X(10).
+           02  FILLER PICTURE X(3).
+           02  ORAMT03C    PICTURE X.
+           02  ORAMT03H    PICTURE X.
+           02  ORAMT03O PIC Z,ZZZ,ZZ9.99.
+           02  FILLER PICTURE X(3).
+           02  ORNBR04C    PICTURE X.
+           02  ORNBR04H    PICTURE X.
+           02  ORNBR04O  PIC X(10).
+           02  FILLER PICTURE X(3).
+           02  ORAMT04C    PICTURE X.
+           02  ORAMT04H    PICTURE X.
+           02  ORAMT04O PIC Z,ZZZ,ZZ9.99.
+           02  FILLER PICTURE X(3).
+           02  ORNBR05C    PICTURE X.
+           02  ORNBR05H    PICTURE X.
+           02  ORNBR05O  PIC X(10).
+           02  FILLER PICTURE X(3).
+           02  ORAMT05C    PICTURE X.
+           02  ORAMT05H    PICTURE X.
+           02  ORAMT05O PIC Z,ZZZ,ZZ9.99.
+           02  FILLER PICTURE X(3).
+           02  ORNBR06C    PICTURE X.
+           02  ORNBR06H    PICTURE X.
+           02  ORNBR06O  PIC X(10).
+           02  FILLER PICTURE X(3).
+           02  ORAMT06C    PICTURE X.
+           02  ORAMT06H    PICTURE X.
+           02  ORAMT06O PIC Z,ZZZ,ZZ9.99.
+           02  FILLER PICTURE X(3).
+           02  ORNBR07C    PICTURE X.
+           02  ORNBR07H    PICTURE X.
+           02  ORNBR07O  PIC X(10).
+           02  FILLER PICTURE X(3).
+           02  ORAMT07C    PICTURE X.
+           02  ORAMT07H    PICTURE X.
+           02  ORAMT07O PIC Z,ZZZ,ZZ9.99.
+           02  FILLER PICTURE X(3).
+           02  ORNBR08C    PICTURE X.
+           02  ORNBR08H    PICTURE X.
+           02  ORNBR08O  PIC X(10).
+           02  FILLER PICTURE X(3).
+           02  ORAMT08C    PICTURE X.
+           02  ORAMT08H    PICTURE X.
+           02  ORAMT08O PIC Z,ZZZ,ZZ9.99.
+           02  FILLER PICTURE X(3).
+           02  ORNBR09C    PICTURE X.
+           02  ORNBR09H    PICTURE X.
+           02  ORNBR09O  PIC X(10).
+           02  FILLER PICTURE X(3).
+           02  ORAMT09C    PICTURE X.
+           02  ORAMT09H    PICTURE X.
+           02  ORAMT09O PIC Z,ZZZ,ZZ9.99.
+           02  FILLER PICTURE X(3).
+           02  ORNBR10C    PICTURE X.
+           02  ORNBR10H    PICTURE X.
+           02  ORNBR10O  PIC X(10).
+           02  FILLER PICTURE X(3).
+           02  ORAMT10C    PICTURE X.
+           02  ORAMT10H    PICTURE X.
+           02  ORAMT10O PIC Z,ZZZ,ZZ9.99.
+           02  FILLER PICTURE X(3).
+           02  ORNBR11C    PICTURE X.
+           02  ORNBR11H    PICTURE X.
+           02  ORNBR11O  PIC X(10).
+           02  FILLER PICTURE X(3).
+           02  ORAMT11C    PICTURE X.
+           02  ORAMT11H    PICTURE X.
+           02  ORAMT11O PIC Z,ZZZ,ZZ9.99.
+           02  FILLER PICTURE X(3).
+           02  ORNBR12C    PICTURE X.
+           02  ORNBR12H    PICTURE X.
+           02  ORNBR12O  PIC X(10).
+           02  FILLER PICTURE X(3).
+           02  ORAMT12C    PICTURE X.
+           02  ORAMT12H    PICTURE X.
+           02  ORAMT12O PIC Z,ZZZ,ZZ9.99.
+           02  FILLER PICTURE X(3).
+           02  ORNBR13C    PICTURE X.
+           02  ORNBR13H    PICTURE X.
+           02  ORNBR13O  PIC X(10).
+           02  FILLER PICTURE X(3).
+           02  ORAMT13C    PICTURE X.
+           02  ORAMT13H    PICTURE X.
+           02  ORAMT13O PIC Z,ZZZ,ZZ9.99.
+           02  FILLER PICTURE X(3).
+           02  ORNBR14C    PICTURE X.
+           02  ORNBR14H    PICTURE X.
+           02  ORNBR14O  PIC X(10).
+           02  FILLER PICTURE X(3).
+           02  ORAMT14C    PICTURE X.
+           02  ORAMT14H    PICTURE X.
+           02  ORAMT14O PIC Z,ZZZ,ZZ9.99.
+           02  FILLER PICTURE X(3).
+           02  PDAMSGC    PICTURE X.
+           02  PDAMSGH    PICTURE X.
+           02  PDAMSGO  PIC X(79).

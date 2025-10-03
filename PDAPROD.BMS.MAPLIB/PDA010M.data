@@ -1,0 +1,274 @@
+       01  PDA010I.
+           02  FILLER PIC X(12).
+           02  PDADATEL    COMP  PIC  S9(4).
+           02  PDADATEF    PICTURE X.
+           02  FILLER REDEFINES PDADATEF.
+             03 PDADATEA    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  PDADATEI  PIC X(8).
+           02  PDATERML    COMP  PIC  S9(4).
+           02  PDATERMF    PICTURE X.
+           02  FILLER REDEFINES PDATERMF.
+             03 PDATERMA    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  PDATERMI  PIC X(8).
+           02  PDATIMEL    COMP  PIC  S9(4).
+           02  PDATIMEF    PICTURE X.
+           02  FILLER REDEFINES PDATIMEF.
+             03 PDATIMEA    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  PDATIMEI  PIC X(8).
+           02  ORDNBRL    COMP  PIC  S9(4).
+           02  ORDNBRF    PICTURE X.
+           02  FILLER REDEFINES ORDNBRF.
+             03 ORDNBRA    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  ORDNBRI  PIC X(10).
+           02  ACTIONL    COMP  PIC  S9(4).
+           02  ACTIONF    PICTURE X.
+           02  FILLER REDEFINES ACTIONF.
+             03 ACTIONA    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  ACTIONI  PIC X(1).
+           02  SAVORDL    COMP  PIC  S9(4).
+           02  SAVORDF    PICTURE X.
+           02  FILLER REDEFINES SAVORDF.
+             03 SAVORDA    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  SAVORDI  PIC X(10).
+           02  PDACUSTL    COMP  PIC  S9(4).
+           02  PDACUSTF    PICTURE X.
+           02  FILLER REDEFINES PDACUSTF.
+             03 PDACUSTA    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  PDACUSTI  PIC X(32).
+           02  ORDDATML    COMP  PIC  S9(4).
+           02  ORDDATMF    PICTURE X.
+           02  FILLER REDEFINES ORDDATMF.
+             03 ORDDATMA    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  ORDDATMI  PIC X(2).
+           02  ORDDATDL    COMP  PIC  S9(4).
+           02  ORDDATDF    PICTURE X.
+           02  FILLER REDEFINES ORDDATDF.
+             03 ORDDATDA    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  ORDDATDI  PIC X(2).
+           02  ORDDATYL    COMP  PIC  S9(4).
+           02  ORDDATYF    PICTURE X.
+           02  FILLER REDEFINES ORDDATYF.
+             03 ORDDATYA    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  ORDDATYI  PIC X(2).
+           02  NAMEL    COMP  PIC  S9(4).
+           02  NAMEF    PICTURE X.
+           02  FILLER REDEFINES NAMEF.
+             03 NAMEA    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  NAMEI  PIC X(34).
+           02  ORDSTATL    COMP  PIC  S9(4).
+           02  ORDSTATF    PICTURE X.
+           02  FILLER REDEFINES ORDSTATF.
+             03 ORDSTATA    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  ORDSTATI  PIC X(15).
+           02  ADDRL    COMP  PIC  S9(4).
+           02  ADDRF    PICTURE X.
+           02  FILLER REDEFINES ADDRF.
+             03 ADDRA    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  ADDRI  PIC X(64).
+           02  CITYL    COMP  PIC  S9(4).
+           02  CITYF    PICTURE X.
+           02  FILLER REDEFINES CITYF.
+             03 CITYA    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  CITYI  PIC X(32).
+           02  TOTAMTL    COMP  PIC  S9(4).
+           02  TOTAMTF    PICTURE X.
+           02  FILLER REDEFINES TOTAMTF.
+             03 TOTAMTA    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  TOTAMTI  PIC X(13).
+           02  STATEL    COMP  PIC  S9(4).
+           02  STATEF    PICTURE X.
+           02  FILLER REDEFINES STATEF.
+             03 STATEA    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  STATEI  PIC X(32).
+           02  PURTYPEL    COMP  PIC  S9(4).
+           02  PURTYPEF    PICTURE X.
+           02  FILLER REDEFINES PURTYPEF.
+             03 PURTYPEA    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  PURTYPEI  PIC X(3).
+           02  PURTDESL    COMP  PIC  S9(4).
+           02  PURTDESF    PICTURE X.
+           02  FILLER REDEFINES PURTDESF.
+             03 PURTDESA    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  PURTDESI  PIC X(10).
+           02  ZIPL    COMP  PIC  S9(4).
+           02  ZIPF    PICTURE X.
+           02  FILLER REDEFINES ZIPF.
+             03 ZIPA    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  ZIPI  PIC X(12).
+           02  PONBRL    COMP  PIC  S9(4).
+           02  PONBRF    PICTURE X.
+           02  FILLER REDEFINES PONBRF.
+             03 PONBRA    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  PONBRI  PIC X(13).
+           02  EMAILL    COMP  PIC  S9(4).
+           02  EMAILF    PICTURE X.
+           02  FILLER REDEFINES EMAILF.
+             03 EMAILA    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  EMAILI  PIC X(64).
+           02  SHNAMEL    COMP  PIC  S9(4).
+           02  SHNAMEF    PICTURE X.
+           02  FILLER REDEFINES SHNAMEF.
+             03 SHNAMEA    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  SHNAMEI  PIC X(64).
+           02  SHADDRL    COMP  PIC  S9(4).
+           02  SHADDRF    PICTURE X.
+           02  FILLER REDEFINES SHADDRF.
+             03 SHADDRA    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  SHADDRI  PIC X(64).
+           02  SHCITYL    COMP  PIC  S9(4).
+           02  SHCITYF    PICTURE X.
+           02  FILLER REDEFINES SHCITYF.
+             03 SHCITYA    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  SHCITYI  PIC X(32).
+           02  SHSTATEL    COMP  PIC  S9(4).
+           02  SHSTATEF    PICTURE X.
+           02  FILLER REDEFINES SHSTATEF.
+             03 SHSTATEA    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  SHSTATEI  PIC X(32).
+           02  SHZIPL    COMP  PIC  S9(4).
+           02  SHZIPF    PICTURE X.
+           02  FILLER REDEFINES SHZIPF.
+             03 SHZIPA    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  SHZIPI  PIC X(12).
+           02  PDAMSGL    COMP  PIC  S9(4).
+           02  PDAMSGF    PICTURE X.
+           02  FILLER REDEFINES PDAMSGF.
+             03 PDAMSGA    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  PDAMSGI  PIC X(79).
+       01  PDA010O REDEFINES PDA010I.
+           02  FILLER PIC X(12).
+           02  FILLER PICTURE X(3).
+           02  PDADATEC    PICTURE X.
+           02  PDADATEH    PICTURE X.
+           02  PDADATEO  PIC X(8).
+           02  FILLER PICTURE X(3).
+           02  PDATERMC    PICTURE X.
+           02  PDATERMH    PICTURE X.
+           02  PDATERMO  PIC X(8).
+           02  FILLER PICTURE X(3).
+           02  PDATIMEC    PICTURE X.
+           02  PDATIMEH    PICTURE X.
+           02  PDATIMEO  PIC X(8).
+           02  FILLER PICTURE X(3).
+           02  ORDNBRC    PICTURE X.
+           02  ORDNBRH    PICTURE X.
+           02  ORDNBRO  PIC X(10).
+           02  FILLER PICTURE X(3).
+           02  ACTIONC    PICTURE X.
+           02  ACTIONH    PICTURE X.
+           02  ACTIONO  PIC X(1).
+           02  FILLER PICTURE X(3).
+           02  SAVORDC    PICTURE X.
+           02  SAVORDH    PICTURE X.
+           02  SAVORDO  PIC X(10).
+           02  FILLER PICTURE X(3).
+           02  PDACUSTC    PICTURE X.
+           02  PDACUSTH    PICTURE X.
+           02  PDACUSTO  PIC X(32).
+           02  FILLER PICTURE X(3).
+           02  ORDDATMC    PICTURE X.
+           02  ORDDATMH    PICTURE X.
+           02  ORDDATMO  PIC X(2).
+           02  FILLER PICTURE X(3).
+           02  ORDDATDC    PICTURE X.
+           02  ORDDATDH    PICTURE X.
+           02  ORDDATDO  PIC X(2).
+           02  FILLER PICTURE X(3).
+           02  ORDDATYC    PICTURE X.
+           02  ORDDATYH    PICTURE X.
+           02  ORDDATYO  PIC X(2).
+           02  FILLER PICTURE X(3).
+           02  NAMEC    PICTURE X.
+           02  NAMEH    PICTURE X.
+           02  NAMEO  PIC X(34).
+           02  FILLER PICTURE X(3).
+           02  ORDSTATC    PICTURE X.
+           02  ORDSTATH    PICTURE X.
+           02  ORDSTATO  PIC X(15).
+           02  FILLER PICTURE X(3).
+           02  ADDRC    PICTURE X.
+           02  ADDRH    PICTURE X.
+           02  ADDRO  PIC X(64).
+           02  FILLER PICTURE X(3).
+           02  CITYC    PICTURE X.
+           02  CITYH    PICTURE X.
+           02  CITYO  PIC X(32).
+           02  FILLER PICTURE X(3).
+           02  TOTAMTC    PICTURE X.
+           02  TOTAMTH    PICTURE X.
+           02  TOTAMTO PIC ZZ,ZZZ,ZZ9.99.
+           02  FILLER PICTURE X(3).
+           02  STATEC    PICTURE X.
+           02  STATEH    PICTURE X.
+           02  STATEO  PIC X(32).
+           02  FILLER PICTURE X(3).
+           02  PURTYPEC    PICTURE X.
+           02  PURTYPEH    PICTURE X.
+           02  PURTYPEO  PIC X(3).
+           02  FILLER PICTURE X(3).
+           02  PURTDESC    PICTURE X.
+           02  PURTDESH    PICTURE X.
+           02  PURTDESO  PIC X(10).
+           02  FILLER PICTURE X(3).
+           02  ZIPC    PICTURE X.
+           02  ZIPH    PICTURE X.
+           02  ZIPO  PIC X(12).
+           02  FILLER PICTURE X(3).
+           02  PONBRC    PICTURE X.
+           02  PONBRH    PICTURE X.
+           02  PONBRO  PIC X(13).
+           02  FILLER PICTURE X(3).
+           02  EMAILC    PICTURE X.
+           02  EMAILH    PICTURE X.
+           02  EMAILO  PIC X(64).
+           02  FILLER PICTURE X(3).
+           02  SHNAMEC    PICTURE X.
+           02  SHNAMEH    PICTURE X.
+           02  SHNAMEO  PIC X(64).
+           02  FILLER PICTURE X(3).
+           02  SHADDRC    PICTURE X.
+           02  SHADDRH    PICTURE X.
+           02  SHADDRO  PIC X(64).
+           02  FILLER PICTURE X(3).
+           02  SHCITYC    PICTURE X.
+           02  SHCITYH    PICTURE X.
+           02  SHCITYO  PIC X(32).
+           02  FILLER PICTURE X(3).
+           02  SHSTATEC    PICTURE X.
+           02  SHSTATEH    PICTURE X.
+           02  SHSTATEO  PIC X(32).
+           02  FILLER PICTURE X(3).
+           02  SHZIPC    PICTURE X.
+           02  SHZIPH    PICTURE X.
+           02  SHZIPO  PIC X(12).
+           02  FILLER PICTURE X(3).
+           02  PDAMSGC    PICTURE X.
+           02  PDAMSGH    PICTURE X.
+           02  PDAMSGO  PIC X(79).

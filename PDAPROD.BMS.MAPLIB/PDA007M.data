@@ -1,0 +1,284 @@
+       01  PDA007I.
+           02  FILLER PIC X(12).
+           02  PDADATEL    COMP  PIC  S9(4).
+           02  PDADATEF    PICTURE X.
+           02  FILLER REDEFINES PDADATEF.
+             03 PDADATEA    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  PDADATEI  PIC X(8).
+           02  PDATERML    COMP  PIC  S9(4).
+           02  PDATERMF    PICTURE X.
+           02  FILLER REDEFINES PDATERMF.
+             03 PDATERMA    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  PDATERMI  PIC X(8).
+           02  PDATIMEL    COMP  PIC  S9(4).
+           02  PDATIMEF    PICTURE X.
+           02  FILLER REDEFINES PDATIMEF.
+             03 PDATIMEA    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  PDATIMEI  PIC X(8).
+           02  ITEMNOL    COMP  PIC  S9(4).
+           02  ITEMNOF    PICTURE X.
+           02  FILLER REDEFINES ITEMNOF.
+             03 ITEMNOA    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  ITEMNOI  PIC X(32).
+           02  ITEMNML    COMP  PIC  S9(4).
+           02  ITEMNMF    PICTURE X.
+           02  FILLER REDEFINES ITEMNMF.
+             03 ITEMNMA    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  ITEMNMI  PIC X(50).
+           02  LENGTHL    COMP  PIC  S9(4).
+           02  LENGTHF    PICTURE X.
+           02  FILLER REDEFINES LENGTHF.
+             03 LENGTHA    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  LENGTHI  PIC X(13).
+           02  DIAMTRL    COMP  PIC  S9(4).
+           02  DIAMTRF    PICTURE X.
+           02  FILLER REDEFINES DIAMTRF.
+             03 DIAMTRA    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  DIAMTRI  PIC X(13).
+           02  QTY1L    COMP  PIC  S9(4).
+           02  QTY1F    PICTURE X.
+           02  FILLER REDEFINES QTY1F.
+             03 QTY1A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  QTY1I  PIC X(9).
+           02  SUPPID1L    COMP  PIC  S9(4).
+           02  SUPPID1F    PICTURE X.
+           02  FILLER REDEFINES SUPPID1F.
+             03 SUPPID1A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  SUPPID1I  PIC X(32).
+           02  UPRICE1L    COMP  PIC  S9(4).
+           02  UPRICE1F    PICTURE X.
+           02  FILLER REDEFINES UPRICE1F.
+             03 UPRICE1A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  UPRICE1I  PIC X(13).
+           02  SUPPNM1L    COMP  PIC  S9(4).
+           02  SUPPNM1F    PICTURE X.
+           02  FILLER REDEFINES SUPPNM1F.
+             03 SUPPNM1A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  SUPPNM1I  PIC X(50).
+           02  QTY2L    COMP  PIC  S9(4).
+           02  QTY2F    PICTURE X.
+           02  FILLER REDEFINES QTY2F.
+             03 QTY2A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  QTY2I  PIC X(9).
+           02  SUPPID2L    COMP  PIC  S9(4).
+           02  SUPPID2F    PICTURE X.
+           02  FILLER REDEFINES SUPPID2F.
+             03 SUPPID2A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  SUPPID2I  PIC X(32).
+           02  UPRICE2L    COMP  PIC  S9(4).
+           02  UPRICE2F    PICTURE X.
+           02  FILLER REDEFINES UPRICE2F.
+             03 UPRICE2A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  UPRICE2I  PIC X(13).
+           02  SUPPNM2L    COMP  PIC  S9(4).
+           02  SUPPNM2F    PICTURE X.
+           02  FILLER REDEFINES SUPPNM2F.
+             03 SUPPNM2A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  SUPPNM2I  PIC X(50).
+           02  QTY3L    COMP  PIC  S9(4).
+           02  QTY3F    PICTURE X.
+           02  FILLER REDEFINES QTY3F.
+             03 QTY3A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  QTY3I  PIC X(9).
+           02  SUPPID3L    COMP  PIC  S9(4).
+           02  SUPPID3F    PICTURE X.
+           02  FILLER REDEFINES SUPPID3F.
+             03 SUPPID3A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  SUPPID3I  PIC X(32).
+           02  UPRICE3L    COMP  PIC  S9(4).
+           02  UPRICE3F    PICTURE X.
+           02  FILLER REDEFINES UPRICE3F.
+             03 UPRICE3A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  UPRICE3I  PIC X(13).
+           02  SUPPNM3L    COMP  PIC  S9(4).
+           02  SUPPNM3F    PICTURE X.
+           02  FILLER REDEFINES SUPPNM3F.
+             03 SUPPNM3A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  SUPPNM3I  PIC X(50).
+           02  QTY4L    COMP  PIC  S9(4).
+           02  QTY4F    PICTURE X.
+           02  FILLER REDEFINES QTY4F.
+             03 QTY4A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  QTY4I  PIC X(9).
+           02  SUPPID4L    COMP  PIC  S9(4).
+           02  SUPPID4F    PICTURE X.
+           02  FILLER REDEFINES SUPPID4F.
+             03 SUPPID4A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  SUPPID4I  PIC X(32).
+           02  UPRICE4L    COMP  PIC  S9(4).
+           02  UPRICE4F    PICTURE X.
+           02  FILLER REDEFINES UPRICE4F.
+             03 UPRICE4A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  UPRICE4I  PIC X(13).
+           02  SUPPNM4L    COMP  PIC  S9(4).
+           02  SUPPNM4F    PICTURE X.
+           02  FILLER REDEFINES SUPPNM4F.
+             03 SUPPNM4A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  SUPPNM4I  PIC X(50).
+           02  QTY5L    COMP  PIC  S9(4).
+           02  QTY5F    PICTURE X.
+           02  FILLER REDEFINES QTY5F.
+             03 QTY5A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  QTY5I  PIC X(9).
+           02  SUPPID5L    COMP  PIC  S9(4).
+           02  SUPPID5F    PICTURE X.
+           02  FILLER REDEFINES SUPPID5F.
+             03 SUPPID5A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  SUPPID5I  PIC X(32).
+           02  UPRICE5L    COMP  PIC  S9(4).
+           02  UPRICE5F    PICTURE X.
+           02  FILLER REDEFINES UPRICE5F.
+             03 UPRICE5A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  UPRICE5I  PIC X(13).
+           02  SUPPNM5L    COMP  PIC  S9(4).
+           02  SUPPNM5F    PICTURE X.
+           02  FILLER REDEFINES SUPPNM5F.
+             03 SUPPNM5A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  SUPPNM5I  PIC X(50).
+           02  PDAMSGL    COMP  PIC  S9(4).
+           02  PDAMSGF    PICTURE X.
+           02  FILLER REDEFINES PDAMSGF.
+             03 PDAMSGA    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  PDAMSGI  PIC X(79).
+       01  PDA007O REDEFINES PDA007I.
+           02  FILLER PIC X(12).
+           02  FILLER PICTURE X(3).
+           02  PDADATEC    PICTURE X.
+           02  PDADATEH    PICTURE X.
+           02  PDADATEO  PIC X(8).
+           02  FILLER PICTURE X(3).
+           02  PDATERMC    PICTURE X.
+           02  PDATERMH    PICTURE X.
+           02  PDATERMO  PIC X(8).
+           02  FILLER PICTURE X(3).
+           02  PDATIMEC    PICTURE X.
+           02  PDATIMEH    PICTURE X.
+           02  PDATIMEO  PIC X(8).
+           02  FILLER PICTURE X(3).
+           02  ITEMNOC    PICTURE X.
+           02  ITEMNOH    PICTURE X.
+           02  ITEMNOO  PIC X(32).
+           02  FILLER PICTURE X(3).
+           02  ITEMNMC    PICTURE X.
+           02  ITEMNMH    PICTURE X.
+           02  ITEMNMO  PIC X(50).
+           02  FILLER PICTURE X(3).
+           02  LENGTHC    PICTURE X.
+           02  LENGTHH    PICTURE X.
+           02  LENGTHO PIC ZZ,ZZZ,ZZ9.99.
+           02  FILLER PICTURE X(3).
+           02  DIAMTRC    PICTURE X.
+           02  DIAMTRH    PICTURE X.
+           02  DIAMTRO PIC ZZ,ZZZ,ZZ9.99.
+           02  FILLER PICTURE X(3).
+           02  QTY1C    PICTURE X.
+           02  QTY1H    PICTURE X.
+           02  QTY1O  PIC X(9).
+           02  FILLER PICTURE X(3).
+           02  SUPPID1C    PICTURE X.
+           02  SUPPID1H    PICTURE X.
+           02  SUPPID1O  PIC X(32).
+           02  FILLER PICTURE X(3).
+           02  UPRICE1C    PICTURE X.
+           02  UPRICE1H    PICTURE X.
+           02  UPRICE1O PIC ZZ,ZZZ,ZZ9.99.
+           02  FILLER PICTURE X(3).
+           02  SUPPNM1C    PICTURE X.
+           02  SUPPNM1H    PICTURE X.
+           02  SUPPNM1O  PIC X(50).
+           02  FILLER PICTURE X(3).
+           02  QTY2C    PICTURE X.
+           02  QTY2H    PICTURE X.
+           02  QTY2O  PIC X(9).
+           02  FILLER PICTURE X(3).
+           02  SUPPID2C    PICTURE X.
+           02  SUPPID2H    PICTURE X.
+           02  SUPPID2O  PIC X(32).
+           02  FILLER PICTURE X(3).
+           02  UPRICE2C    PICTURE X.
+           02  UPRICE2H    PICTURE X.
+           02  UPRICE2O PIC ZZ,ZZZ,ZZ9.99.
+           02  FILLER PICTURE X(3).
+           02  SUPPNM2C    PICTURE X.
+           02  SUPPNM2H    PICTURE X.
+           02  SUPPNM2O  PIC X(50).
+           02  FILLER PICTURE X(3).
+           02  QTY3C    PICTURE X.
+           02  QTY3H    PICTURE X.
+           02  QTY3O  PIC X(9).
+           02  FILLER PICTURE X(3).
+           02  SUPPID3C    PICTURE X.
+           02  SUPPID3H    PICTURE X.
+           02  SUPPID3O  PIC X(32).
+           02  FILLER PICTURE X(3).
+           02  UPRICE3C    PICTURE X.
+           02  UPRICE3H    PICTURE X.
+           02  UPRICE3O PIC ZZ,ZZZ,ZZ9.99.
+           02  FILLER PICTURE X(3).
+           02  SUPPNM3C    PICTURE X.
+           02  SUPPNM3H    PICTURE X.
+           02  SUPPNM3O  PIC X(50).
+           02  FILLER PICTURE X(3).
+           02  QTY4C    PICTURE X.
+           02  QTY4H    PICTURE X.
+           02  QTY4O  PIC X(9).
+           02  FILLER PICTURE X(3).
+           02  SUPPID4C    PICTURE X.
+           02  SUPPID4H    PICTURE X.
+           02  SUPPID4O  PIC X(32).
+           02  FILLER PICTURE X(3).
+           02  UPRICE4C    PICTURE X.
+           02  UPRICE4H    PICTURE X.
+           02  UPRICE4O PIC ZZ,ZZZ,ZZ9.99.
+           02  FILLER PICTURE X(3).
+           02  SUPPNM4C    PICTURE X.
+           02  SUPPNM4H    PICTURE X.
+           02  SUPPNM4O  PIC X(50).
+           02  FILLER PICTURE X(3).
+           02  QTY5C    PICTURE X.
+           02  QTY5H    PICTURE X.
+           02  QTY5O  PIC X(9).
+           02  FILLER PICTURE X(3).
+           02  SUPPID5C    PICTURE X.
+           02  SUPPID5H    PICTURE X.
+           02  SUPPID5O  PIC X(32).
+           02  FILLER PICTURE X(3).
+           02  UPRICE5C    PICTURE X.
+           02  UPRICE5H    PICTURE X.
+           02  UPRICE5O PIC ZZ,ZZZ,ZZ9.99.
+           02  FILLER PICTURE X(3).
+           02  SUPPNM5C    PICTURE X.
+           02  SUPPNM5H    PICTURE X.
+           02  SUPPNM5O  PIC X(50).
+           02  FILLER PICTURE X(3).
+           02  PDAMSGC    PICTURE X.
+           02  PDAMSGH    PICTURE X.
+           02  PDAMSGO  PIC X(79).

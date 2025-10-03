@@ -1,0 +1,354 @@
+       01  PDA008I.
+           02  FILLER PIC X(12).
+           02  PDADATEL    COMP  PIC  S9(4).
+           02  PDADATEF    PICTURE X.
+           02  FILLER REDEFINES PDADATEF.
+             03 PDADATEA    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  PDADATEI  PIC X(8).
+           02  PDATERML    COMP  PIC  S9(4).
+           02  PDATERMF    PICTURE X.
+           02  FILLER REDEFINES PDATERMF.
+             03 PDATERMA    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  PDATERMI  PIC X(8).
+           02  PDATIMEL    COMP  PIC  S9(4).
+           02  PDATIMEF    PICTURE X.
+           02  FILLER REDEFINES PDATIMEF.
+             03 PDATIMEA    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  PDATIMEI  PIC X(8).
+           02  ACTION1L    COMP  PIC  S9(4).
+           02  ACTION1F    PICTURE X.
+           02  FILLER REDEFINES ACTION1F.
+             03 ACTION1A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  ACTION1I  PIC X(1).
+           02  QTY1L    COMP  PIC  S9(4).
+           02  QTY1F    PICTURE X.
+           02  FILLER REDEFINES QTY1F.
+             03 QTY1A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  QTY1I  PIC X(9).
+           02  ITEM1L    COMP  PIC  S9(4).
+           02  ITEM1F    PICTURE X.
+           02  FILLER REDEFINES ITEM1F.
+             03 ITEM1A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  ITEM1I  PIC X(32).
+           02  NAME1L    COMP  PIC  S9(4).
+           02  NAME1F    PICTURE X.
+           02  FILLER REDEFINES NAME1F.
+             03 NAME1A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  NAME1I  PIC X(50).
+           02  SUPPID1L    COMP  PIC  S9(4).
+           02  SUPPID1F    PICTURE X.
+           02  FILLER REDEFINES SUPPID1F.
+             03 SUPPID1A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  SUPPID1I  PIC X(32).
+           02  ORDSEQ1L    COMP  PIC  S9(4).
+           02  ORDSEQ1F    PICTURE X.
+           02  FILLER REDEFINES ORDSEQ1F.
+             03 ORDSEQ1A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  ORDSEQ1I  PIC X(5).
+           02  HPRICE1L    COMP  PIC  S9(4).
+           02  HPRICE1F    PICTURE X.
+           02  FILLER REDEFINES HPRICE1F.
+             03 HPRICE1A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  HPRICE1I  PIC X(10).
+           02  UPRICE1L    COMP  PIC  S9(4).
+           02  UPRICE1F    PICTURE X.
+           02  FILLER REDEFINES UPRICE1F.
+             03 UPRICE1A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  UPRICE1I  PIC X(13).
+           02  XPRICE1L    COMP  PIC  S9(4).
+           02  XPRICE1F    PICTURE X.
+           02  FILLER REDEFINES XPRICE1F.
+             03 XPRICE1A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  XPRICE1I  PIC X(13).
+           02  STOCK1L    COMP  PIC  S9(4).
+           02  STOCK1F    PICTURE X.
+           02  FILLER REDEFINES STOCK1F.
+             03 STOCK1A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  STOCK1I  PIC X(12).
+           02  ACTION2L    COMP  PIC  S9(4).
+           02  ACTION2F    PICTURE X.
+           02  FILLER REDEFINES ACTION2F.
+             03 ACTION2A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  ACTION2I  PIC X(1).
+           02  QTY2L    COMP  PIC  S9(4).
+           02  QTY2F    PICTURE X.
+           02  FILLER REDEFINES QTY2F.
+             03 QTY2A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  QTY2I  PIC X(9).
+           02  ITEM2L    COMP  PIC  S9(4).
+           02  ITEM2F    PICTURE X.
+           02  FILLER REDEFINES ITEM2F.
+             03 ITEM2A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  ITEM2I  PIC X(32).
+           02  NAME2L    COMP  PIC  S9(4).
+           02  NAME2F    PICTURE X.
+           02  FILLER REDEFINES NAME2F.
+             03 NAME2A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  NAME2I  PIC X(50).
+           02  SUPPID2L    COMP  PIC  S9(4).
+           02  SUPPID2F    PICTURE X.
+           02  FILLER REDEFINES SUPPID2F.
+             03 SUPPID2A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  SUPPID2I  PIC X(32).
+           02  ORDSEQ2L    COMP  PIC  S9(4).
+           02  ORDSEQ2F    PICTURE X.
+           02  FILLER REDEFINES ORDSEQ2F.
+             03 ORDSEQ2A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  ORDSEQ2I  PIC X(5).
+           02  HPRICE2L    COMP  PIC  S9(4).
+           02  HPRICE2F    PICTURE X.
+           02  FILLER REDEFINES HPRICE2F.
+             03 HPRICE2A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  HPRICE2I  PIC X(10).
+           02  UPRICE2L    COMP  PIC  S9(4).
+           02  UPRICE2F    PICTURE X.
+           02  FILLER REDEFINES UPRICE2F.
+             03 UPRICE2A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  UPRICE2I  PIC X(13).
+           02  XPRICE2L    COMP  PIC  S9(4).
+           02  XPRICE2F    PICTURE X.
+           02  FILLER REDEFINES XPRICE2F.
+             03 XPRICE2A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  XPRICE2I  PIC X(13).
+           02  STOCK2L    COMP  PIC  S9(4).
+           02  STOCK2F    PICTURE X.
+           02  FILLER REDEFINES STOCK2F.
+             03 STOCK2A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  STOCK2I  PIC X(12).
+           02  ACTION3L    COMP  PIC  S9(4).
+           02  ACTION3F    PICTURE X.
+           02  FILLER REDEFINES ACTION3F.
+             03 ACTION3A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  ACTION3I  PIC X(1).
+           02  QTY3L    COMP  PIC  S9(4).
+           02  QTY3F    PICTURE X.
+           02  FILLER REDEFINES QTY3F.
+             03 QTY3A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  QTY3I  PIC X(9).
+           02  ITEM3L    COMP  PIC  S9(4).
+           02  ITEM3F    PICTURE X.
+           02  FILLER REDEFINES ITEM3F.
+             03 ITEM3A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  ITEM3I  PIC X(32).
+           02  NAME3L    COMP  PIC  S9(4).
+           02  NAME3F    PICTURE X.
+           02  FILLER REDEFINES NAME3F.
+             03 NAME3A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  NAME3I  PIC X(50).
+           02  SUPPID3L    COMP  PIC  S9(4).
+           02  SUPPID3F    PICTURE X.
+           02  FILLER REDEFINES SUPPID3F.
+             03 SUPPID3A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  SUPPID3I  PIC X(32).
+           02  ORDSEQ3L    COMP  PIC  S9(4).
+           02  ORDSEQ3F    PICTURE X.
+           02  FILLER REDEFINES ORDSEQ3F.
+             03 ORDSEQ3A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  ORDSEQ3I  PIC X(5).
+           02  HPRICE3L    COMP  PIC  S9(4).
+           02  HPRICE3F    PICTURE X.
+           02  FILLER REDEFINES HPRICE3F.
+             03 HPRICE3A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  HPRICE3I  PIC X(10).
+           02  UPRICE3L    COMP  PIC  S9(4).
+           02  UPRICE3F    PICTURE X.
+           02  FILLER REDEFINES UPRICE3F.
+             03 UPRICE3A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  UPRICE3I  PIC X(13).
+           02  XPRICE3L    COMP  PIC  S9(4).
+           02  XPRICE3F    PICTURE X.
+           02  FILLER REDEFINES XPRICE3F.
+             03 XPRICE3A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  XPRICE3I  PIC X(13).
+           02  STOCK3L    COMP  PIC  S9(4).
+           02  STOCK3F    PICTURE X.
+           02  FILLER REDEFINES STOCK3F.
+             03 STOCK3A    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  STOCK3I  PIC X(12).
+           02  TOTLCSTL    COMP  PIC  S9(4).
+           02  TOTLCSTF    PICTURE X.
+           02  FILLER REDEFINES TOTLCSTF.
+             03 TOTLCSTA    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  TOTLCSTI  PIC X(13).
+           02  PDAMSGL    COMP  PIC  S9(4).
+           02  PDAMSGF    PICTURE X.
+           02  FILLER REDEFINES PDAMSGF.
+             03 PDAMSGA    PICTURE X.
+           02  FILLER   PICTURE X(2).
+           02  PDAMSGI  PIC X(79).
+       01  PDA008O REDEFINES PDA008I.
+           02  FILLER PIC X(12).
+           02  FILLER PICTURE X(3).
+           02  PDADATEC    PICTURE X.
+           02  PDADATEH    PICTURE X.
+           02  PDADATEO  PIC X(8).
+           02  FILLER PICTURE X(3).
+           02  PDATERMC    PICTURE X.
+           02  PDATERMH    PICTURE X.
+           02  PDATERMO  PIC X(8).
+           02  FILLER PICTURE X(3).
+           02  PDATIMEC    PICTURE X.
+           02  PDATIMEH    PICTURE X.
+           02  PDATIMEO  PIC X(8).
+           02  FILLER PICTURE X(3).
+           02  ACTION1C    PICTURE X.
+           02  ACTION1H    PICTURE X.
+           02  ACTION1O  PIC X(1).
+           02  FILLER PICTURE X(3).
+           02  QTY1C    PICTURE X.
+           02  QTY1H    PICTURE X.
+           02  QTY1O  PIC X(9).
+           02  FILLER PICTURE X(3).
+           02  ITEM1C    PICTURE X.
+           02  ITEM1H    PICTURE X.
+           02  ITEM1O  PIC X(32).
+           02  FILLER PICTURE X(3).
+           02  NAME1C    PICTURE X.
+           02  NAME1H    PICTURE X.
+           02  NAME1O  PIC X(50).
+           02  FILLER PICTURE X(3).
+           02  SUPPID1C    PICTURE X.
+           02  SUPPID1H    PICTURE X.
+           02  SUPPID1O  PIC X(32).
+           02  FILLER PICTURE X(3).
+           02  ORDSEQ1C    PICTURE X.
+           02  ORDSEQ1H    PICTURE X.
+           02  ORDSEQ1O  PIC X(5).
+           02  FILLER PICTURE X(3).
+           02  HPRICE1C    PICTURE X.
+           02  HPRICE1H    PICTURE X.
+           02  HPRICE1O  PIC X(10).
+           02  FILLER PICTURE X(3).
+           02  UPRICE1C    PICTURE X.
+           02  UPRICE1H    PICTURE X.
+           02  UPRICE1O PIC ZZ,ZZZ,ZZZ.ZZ.
+           02  FILLER PICTURE X(3).
+           02  XPRICE1C    PICTURE X.
+           02  XPRICE1H    PICTURE X.
+           02  XPRICE1O PIC ZZ,ZZZ,ZZZ.ZZ.
+           02  FILLER PICTURE X(3).
+           02  STOCK1C    PICTURE X.
+           02  STOCK1H    PICTURE X.
+           02  STOCK1O  PIC X(12).
+           02  FILLER PICTURE X(3).
+           02  ACTION2C    PICTURE X.
+           02  ACTION2H    PICTURE X.
+           02  ACTION2O  PIC X(1).
+           02  FILLER PICTURE X(3).
+           02  QTY2C    PICTURE X.
+           02  QTY2H    PICTURE X.
+           02  QTY2O  PIC X(9).
+           02  FILLER PICTURE X(3).
+           02  ITEM2C    PICTURE X.
+           02  ITEM2H    PICTURE X.
+           02  ITEM2O  PIC X(32).
+           02  FILLER PICTURE X(3).
+           02  NAME2C    PICTURE X.
+           02  NAME2H    PICTURE X.
+           02  NAME2O  PIC X(50).
+           02  FILLER PICTURE X(3).
+           02  SUPPID2C    PICTURE X.
+           02  SUPPID2H    PICTURE X.
+           02  SUPPID2O  PIC X(32).
+           02  FILLER PICTURE X(3).
+           02  ORDSEQ2C    PICTURE X.
+           02  ORDSEQ2H    PICTURE X.
+           02  ORDSEQ2O  PIC X(5).
+           02  FILLER PICTURE X(3).
+           02  HPRICE2C    PICTURE X.
+           02  HPRICE2H    PICTURE X.
+           02  HPRICE2O  PIC X(10).
+           02  FILLER PICTURE X(3).
+           02  UPRICE2C    PICTURE X.
+           02  UPRICE2H    PICTURE X.
+           02  UPRICE2O PIC ZZ,ZZZ,ZZZ.ZZ.
+           02  FILLER PICTURE X(3).
+           02  XPRICE2C    PICTURE X.
+           02  XPRICE2H    PICTURE X.
+           02  XPRICE2O PIC ZZ,ZZZ,ZZZ.ZZ.
+           02  FILLER PICTURE X(3).
+           02  STOCK2C    PICTURE X.
+           02  STOCK2H    PICTURE X.
+           02  STOCK2O  PIC X(12).
+           02  FILLER PICTURE X(3).
+           02  ACTION3C    PICTURE X.
+           02  ACTION3H    PICTURE X.
+           02  ACTION3O  PIC X(1).
+           02  FILLER PICTURE X(3).
+           02  QTY3C    PICTURE X.
+           02  QTY3H    PICTURE X.
+           02  QTY3O  PIC X(9).
+           02  FILLER PICTURE X(3).
+           02  ITEM3C    PICTURE X.
+           02  ITEM3H    PICTURE X.
+           02  ITEM3O  PIC X(32).
+           02  FILLER PICTURE X(3).
+           02  NAME3C    PICTURE X.
+           02  NAME3H    PICTURE X.
+           02  NAME3O  PIC X(50).
+           02  FILLER PICTURE X(3).
+           02  SUPPID3C    PICTURE X.
+           02  SUPPID3H    PICTURE X.
+           02  SUPPID3O  PIC X(32).
+           02  FILLER PICTURE X(3).
+           02  ORDSEQ3C    PICTURE X.
+           02  ORDSEQ3H    PICTURE X.
+           02  ORDSEQ3O  PIC X(5).
+           02  FILLER PICTURE X(3).
+           02  HPRICE3C    PICTURE X.
+           02  HPRICE3H    PICTURE X.
+           02  HPRICE3O  PIC X(10).
+           02  FILLER PICTURE X(3).
+           02  UPRICE3C    PICTURE X.
+           02  UPRICE3H    PICTURE X.
+           02  UPRICE3O PIC ZZ,ZZZ,ZZZ.ZZ.
+           02  FILLER PICTURE X(3).
+           02  XPRICE3C    PICTURE X.
+           02  XPRICE3H    PICTURE X.
+           02  XPRICE3O PIC ZZ,ZZZ,ZZZ.ZZ.
+           02  FILLER PICTURE X(3).
+           02  STOCK3C    PICTURE X.
+           02  STOCK3H    PICTURE X.
+           02  STOCK3O  PIC X(12).
+           02  FILLER PICTURE X(3).
+           02  TOTLCSTC    PICTURE X.
+           02  TOTLCSTH    PICTURE X.
+           02  TOTLCSTO PIC ZZ,ZZZ,ZZ9.99.
+           02  FILLER PICTURE X(3).
+           02  PDAMSGC    PICTURE X.
+           02  PDAMSGH    PICTURE X.
+           02  PDAMSGO  PIC X(79).
