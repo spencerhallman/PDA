@@ -19,6 +19,7 @@ The Product Demonstration Application (PDA) is a sophisticated IBM mainframe COB
 - **`PDAPROD.BMS.MAPLIB/`** - 14 BMS maps (3270 terminal screen definitions)
 
 ### Documentation
+- **`PDA_Complete_Developer_Guide.md`** - 63KB comprehensive learning guide for developers (RECOMMENDED START HERE)
 - **`analyze&create_MarkDown.md`** - Comprehensive 38KB application analysis report with modernization roadmap
 - **`PDA_Business_Rules_EARS_Format.md`** - 78 business rules extracted from source code in EARS format
 - **`README.md`** - This overview document
@@ -133,16 +134,22 @@ This application represents a complete enterprise mainframe system from the earl
 
 ## Getting Started
 
-### For Analysis
+### For New Developers (RECOMMENDED)
+1. **Start with `PDA_Complete_Developer_Guide.md`** - Complete learning resource designed for junior developers
+2. Follow the guided learning path from foundation to modernization
+3. Practice with the included exercises and code examples
+4. Use the integrated EARS business rules for understanding system behavior
+
+### For System Analysis
 1. Review the `analyze&create_MarkDown.md` for comprehensive system understanding
 2. Examine the business rules in `PDA_Business_Rules_EARS_Format.md`
 3. Explore the source code organization in the three main directories
 
-### For Modernization
+### For Modernization Projects
 1. Use the business rules as requirements specifications
 2. Follow the modernization roadmap in the analysis report
-3. Preserve the 78 business rules during technology migration
-4. Maintain transaction integrity and data validation patterns
+3. Reference the API design patterns in the developer guide
+4. Preserve the 78 business rules during technology migration
 
 ## Contributing
 
